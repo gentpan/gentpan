@@ -1,6 +1,15 @@
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=gentpan&label=Profile+Views&color=0e75b6&style=flat" alt="gentpan" />
+</p>
+
 <h1 align="center">Hi there 👋, I'm gentpan</h1>
 
 <p align="center">
+  <a href="https://gentpan.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=440&lines=🎯+专注前端与+WordPress;🧩+热爱+开源+%26+优雅界面;💬+欢迎交流+%7C+gentpan.com" alt="Typing SVG" />
+  </a>
+</p>
+
   🎯 专注前端与 WordPress，热爱开源。<br>
   🧩 喜欢构建有用的工具和优雅的用户界面。
 </p>
