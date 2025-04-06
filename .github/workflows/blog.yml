@@ -2,7 +2,7 @@ name: 最新博客自动更新
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # 每天凌晨 3 点自动运行
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,3 +14,5 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://xifeng.net/rss.xml"
+          comment_tag_name: "blog-posts"
+          max_post_count: 5
