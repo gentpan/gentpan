@@ -34,10 +34,8 @@
 
 ### 📰 最新博客文章（自动抓取）
 
-<!-- 示例：使用 GitHub Actions 抓取 RSS，可集成 blog-post-workflow 或 GitHub Readme RSS -->
-<!-- 示例插件：https://github.com/gautamkrishnar/blog-post-workflow -->
-
-<!-- 这里可以插入生成的文章列表或加载外部 README 动态内容 -->
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 <p align="left">
   <a href="https://gentpan.com" target="_blank">🔗 查看更多文章</a>
