@@ -6,33 +6,22 @@
 
 <p align="center">
   <a href="https://gentpan.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=440&lines=🎯+专注前端与+WordPress;🧩+热爱+开源+%26+优雅界面;💬+欢迎交流+%7C+gentpan.com" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=440&lines=🎯+专注前端与+WordPress;🥉+热爱+开源+%26+优雅界面;💬+欢迎交流+%7C+gentpan.com" alt="Typing SVG" />
   </a>
 </p>
 
+<p align="center">
   🎯 专注前端与 WordPress，热爱开源。<br>
-  🧩 喜欢构建有用的工具和优雅的用户界面。
+  🥉 喜欢构建有用的工具和优雅的用户界面。
 </p>
 
-### 🌟 推荐项目（Featured Projects）
+---
 
-<div align="center">
+### 📅 最新博客文章
 
-<a href="https://google.fonts.ga" target="_blank">
-  <img src="https://img.shields.io/badge/🎨 Google Fonts 加速服务-搜索 | 镜像 | 打包-blueviolet?style=for-the-badge" />
-</a>
-<br><br>
-<a href="https://cdn.css.ga" target="_blank">
-  <img src="https://img.shields.io/badge/🚀 CDN CSS 库工具-搜索 | 版本锁定 | 复制-0aa884?style=for-the-badge" />
-</a>
-<br><br>
-<a href="#" target="_blank">
-  <img src="https://img.shields.io/badge/🧉 WordPress主题-即将发布-orange?style=for-the-badge" />
-</a>
-
-</div>
-
-### 📰 最新博客文章（自动抓取）
+<p align="center">
+  <img src="https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E6%8A%A5%E5%91%8A-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0-blue?style=flat-square&logo=rss&logoColor=white">
+</p>
 
 <!-- BLOG-POST-LIST:START -->
 - [近况](https://xifeng.net/2025/03/march-report)
@@ -42,10 +31,31 @@
 - [香港汇丰银行开卡记](https://xifeng.net/2024/12/bankcard-hongkong-hsbc)
 <!-- BLOG-POST-LIST:END -->
 
-<p align="left">
-  <a href="https://gentpan.com" target="_blank">🔗 查看更多文章</a>
+<p align="center">
+  <a href="https://xifeng.net" target="_blank">🔗 查看更多博文</a>
 </p>
 
+---
+
+### 🌟 推荐项目（Featured Projects）
+
+<div align="center">
+
+<a href="https://google.fonts.ga" target="_blank">
+  <img src="https://img.shields.io/badge/🎨 Google Fonts 加速服务-镜像 | 搜索 | 打包-blueviolet?style=for-the-badge" />
+</a>
+<br><br>
+<a href="https://cdn.css.ga" target="_blank">
+  <img src="https://img.shields.io/badge/🚀 CDN CSS 库工具-搜索 | 复制 | 版本锁定-0aa884?style=for-the-badge" />
+</a>
+<br><br>
+<a href="#" target="_blank">
+  <img src="https://img.shields.io/badge/🧉 WordPress主题-即将发布-orange?style=for-the-badge" />
+</a>
+
+</div>
+
+---
 
 ### 🧰 Tech Stack
 
@@ -60,7 +70,7 @@
 
 ---
 
-### 📈 GitHub Stats
+### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gentpan&show_icons=true&theme=default&hide_title=true">
@@ -83,4 +93,3 @@
 ### 💬 A Quote to Live By
 
 > *"Talk is cheap. Show me the code."* – Linus Torvalds
-> 
