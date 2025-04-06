@@ -35,6 +35,11 @@
 ### 📰 最新博客文章（自动抓取）
 
 <!-- BLOG-POST-LIST:START -->
+- [近况](https://xifeng.net/2025/03/march-report)
+- [腊八蒜](https://xifeng.net/2025/01/laba-garlic)
+- [和孤独共处](https://xifeng.net/2024/12/living-with-loneliness)
+- [塔什干 雪](https://xifeng.net/2024/12/first-snow-in-tashkent)
+- [香港汇丰银行开卡记](https://xifeng.net/2024/12/bankcard-hongkong-hsbc)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
