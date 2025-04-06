@@ -14,7 +14,35 @@
   🧩 喜欢构建有用的工具和优雅的用户界面。
 </p>
 
----
+### 🌟 推荐项目（Featured Projects）
+
+<div align="center">
+
+<a href="https://google.fonts.ga" target="_blank">
+  <img src="https://img.shields.io/badge/🎨 Google Fonts 加速服务-搜索 | 镜像 | 打包-blueviolet?style=for-the-badge" />
+</a>
+<br><br>
+<a href="https://cdn.css.ga" target="_blank">
+  <img src="https://img.shields.io/badge/🚀 CDN CSS 库工具-搜索 | 版本锁定 | 复制-0aa884?style=for-the-badge" />
+</a>
+<br><br>
+<a href="#" target="_blank">
+  <img src="https://img.shields.io/badge/🧉 WordPress主题-即将发布-orange?style=for-the-badge" />
+</a>
+
+</div>
+
+### 📰 最新博客文章（自动抓取）
+
+<!-- 示例：使用 GitHub Actions 抓取 RSS，可集成 blog-post-workflow 或 GitHub Readme RSS -->
+<!-- 示例插件：https://github.com/gautamkrishnar/blog-post-workflow -->
+
+<!-- 这里可以插入生成的文章列表或加载外部 README 动态内容 -->
+
+<p align="left">
+  <a href="https://gentpan.com" target="_blank">🔗 查看更多文章</a>
+</p>
+
 
 ### 🧰 Tech Stack
 
