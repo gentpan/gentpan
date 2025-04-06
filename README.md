@@ -2,6 +2,10 @@
   <img src="https://komarev.com/ghpvc/?username=gentpan&label=Profile+Views&color=0e75b6&style=flat" alt="gentpan" />
 </p>
 
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/41898282?v=4" width="100" style="border-radius: 50%; box-shadow: 0 0 8px rgba(0,0,0,0.15);">
+</p>
+
 <h1 align="center">Hi there 👋, I'm gentpan</h1>
 
 <p align="center">
@@ -17,43 +21,45 @@
 
 ---
 
+### 🌟 推荐项目（Featured Projects）
+
+<div align="center">
+<a href="https://google.fonts.ga" target="_blank">
+  <img src="https://img.shields.io/badge/🎨 Google Fonts 加速服务-镜像 | 搜索 | 打包-blueviolet?style=for-the-badge&logo=googlefonts&logoColor=white" />
+</a>
+<br><br>
+<a href="https://cdn.css.ga" target="_blank">
+  <img src="https://img.shields.io/badge/🚀 CDN CSS 库工具-搜索 | 复制 | 版本锁定-0aa884?style=for-the-badge&logo=css3&logoColor=white" />
+</a>
+<br><br>
+<a href="#" target="_blank">
+  <img src="https://img.shields.io/badge/🧉 WordPress主题-即将发布-orange?style=for-the-badge&logo=wordpress&logoColor=white" />
+</a>
+</div>
+
+---
+
 ### 📅 最新博客文章
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E6%8A%A5%E5%91%8A-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0-blue?style=flat-square&logo=rss&logoColor=white">
+  <img src="https://img.shields.io/badge/📖 最新文章预览-自动更新-lightgrey?style=flat-square&logo=rss&logoColor=white">
 </p>
 
-<!-- BLOG-POST-LIST:START -->
-- [近况](https://xifeng.net/2025/03/march-report)
-- [腊八蒜](https://xifeng.net/2025/01/laba-garlic)
-- [和孤独共处](https://xifeng.net/2024/12/living-with-loneliness)
-- [塔什干 雪](https://xifeng.net/2024/12/first-snow-in-tashkent)
-- [香港汇丰银行开卡记](https://xifeng.net/2024/12/bankcard-hongkong-hsbc)
-<!-- BLOG-POST-LIST:END -->
+<table>
+  <tr>
+    <td><b><a href="https://xifeng.net/2025/03/march-report">近况</a></b><br/><sub>简要记录最近的思考和生活节奏。</sub></td>
+  </tr>
+  <tr>
+    <td><b><a href="https://xifeng.net/2025/01/laba-garlic">腊八蒜</a></b><br/><sub>关于腊八节传统与回忆的趣味记录。</sub></td>
+  </tr>
+  <tr>
+    <td><b><a href="https://xifeng.net/2024/12/living-with-loneliness">和孤独共处</a></b><br/><sub>一个人时，如何面对孤独并从中获取力量。</sub></td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://xifeng.net" target="_blank">🔗 查看更多博文</a>
 </p>
-
----
-
-### 🌟 推荐项目（Featured Projects）
-
-<div align="center">
-
-<a href="https://google.fonts.ga" target="_blank">
-  <img src="https://img.shields.io/badge/🎨 Google Fonts 加速服务-镜像 | 搜索 | 打包-blueviolet?style=for-the-badge" />
-</a>
-<br><br>
-<a href="https://cdn.css.ga" target="_blank">
-  <img src="https://img.shields.io/badge/🚀 CDN CSS 库工具-搜索 | 复制 | 版本锁定-0aa884?style=for-the-badge" />
-</a>
-<br><br>
-<a href="#" target="_blank">
-  <img src="https://img.shields.io/badge/🧉 WordPress主题-即将发布-orange?style=for-the-badge" />
-</a>
-
-</div>
 
 ---
 
@@ -70,12 +76,14 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & 活跃图
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gentpan&show_icons=true&theme=default&hide_title=true">
   <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gentpan&layout=compact&hide_border=true">
+  <br><br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gentpan&theme=github-light" alt="activity graph" />
 </p>
 
 ---
