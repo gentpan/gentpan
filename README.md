@@ -1,6 +1,6 @@
 ![玻璃、金属与柔和光影构成的软件工具意境封面](assets/cover-art.png)
 
-## Start Here
+## 🚀 Start Here
 
 | 项目 | 简介 | 技术 | Stars |
 | :--- | :--- | :--- | :---: |
@@ -10,7 +10,7 @@
 | **[LiteMD](https://github.com/gentpan/LiteMD)** | 原生 Markdown 编辑器，支持实时预览与格式转换。 | `Swift` | [![Stars](https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/LiteMD/stargazers) |
 | **[MailEdge](https://github.com/gentpan/MailEdge)** | Cloudflare 上的 Serverless 邮箱与多渠道发信。 | `TypeScript` | [![Stars](https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/MailEdge/stargazers) |
 
-## Development
+## 📊 Development
 
 <!--START_SECTION:waka-->
 ![GitHub overview: 12,731 contributions, 44 public non-fork repositories, 169 stars, 11 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20260920111800)
@@ -20,7 +20,7 @@
 ![Quarterly lines added and deleted, grouped by repository language](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v=20260920111800)
 
 <details>
-<summary>数据说明</summary>
+<summary>ℹ️ 数据说明</summary>
 
 - 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及 QuotaBar 的公开非 Fork 仓库。
 - 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
@@ -34,7 +34,7 @@
 <!--END_SECTION:waka-->
 
 <details>
-<summary>Contribution Snake</summary>
+<summary>🐍 Contribution Snake</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gentpan/gentpan/output/github-contribution-grid-snake-dark.svg">

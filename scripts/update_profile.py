@@ -193,7 +193,7 @@ def main():
 ![Quarterly lines added and deleted, grouped by repository language]({raw}/development-timeline.svg?v={version})
 
 <details>
-<summary>数据说明</summary>
+<summary>ℹ️ 数据说明</summary>
 
 - 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及 QuotaBar 的公开非 Fork 仓库。
 - 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
