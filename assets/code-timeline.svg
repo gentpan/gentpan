@@ -99,8 +99,8 @@
 <rect x="733.00" y="247.10" width="48.00" height="0.00" fill="#8993A3"><title>2026 Q3 · Other: -32 lines</title></rect>
 <rect x="733.00" y="202.48" width="48.00" height="22.45" fill="#8B79BF"><title>2026 Q3 · PHP: +145,550 lines</title></rect>
 <rect x="733.00" y="247.11" width="48.00" height="11.01" fill="#8B79BF"><title>2026 Q3 · PHP: -71,370 lines</title></rect>
-<rect x="733.00" y="161.71" width="48.00" height="40.77" fill="#57A56B"><title>2026 Q3 · Python: +264,394 lines</title></rect>
-<rect x="733.00" y="258.11" width="48.00" height="4.70" fill="#57A56B"><title>2026 Q3 · Python: -30,454 lines</title></rect>
+<rect x="733.00" y="161.71" width="48.00" height="40.77" fill="#57A56B"><title>2026 Q3 · Python: +264,396 lines</title></rect>
+<rect x="733.00" y="258.11" width="48.00" height="4.70" fill="#57A56B"><title>2026 Q3 · Python: -30,456 lines</title></rect>
 <rect x="733.00" y="161.68" width="48.00" height="0.03" fill="#C95D6C"><title>2026 Q3 · Ruby: +169 lines</title></rect>
 <rect x="733.00" y="262.81" width="48.00" height="0.01" fill="#C95D6C"><title>2026 Q3 · Ruby: -70 lines</title></rect>
 <rect x="733.00" y="136.59" width="48.00" height="25.09" fill="#F28C45"><title>2026 Q3 · Swift: +162,670 lines</title></rect>
@@ -128,6 +128,6 @@
 <text x="896" y="287" font-size="13">TypeScript</text>
 <rect x="874" y="301" width="11" height="11" rx="3" fill="#42B88C"/>
 <text x="896" y="312" font-size="13">Vue</text>
-<text class="muted" x="32" y="465" font-size="12">1,916 attributed commits · full available default-branch history · SHA deduplicated</text>
+<text class="muted" x="32" y="465" font-size="12">1,917 attributed commits · full available default-branch history · SHA deduplicated</text>
 <text class="muted" x="32" y="488" font-size="12">Includes generated / imported lines. Repository language is not a per-file language analysis.</text>
 </svg>
