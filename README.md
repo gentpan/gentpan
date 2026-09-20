@@ -16,37 +16,37 @@
       <td><strong><a href="https://github.com/gentpan/LitePic">🖼️&nbsp;LitePic</a></strong></td>
       <td>相册、图片处理、Passkey 与远程存储。</td>
       <td><code>PHP</code></td>
-      <td align="center"><a href="https://github.com/gentpan/LitePic/stargazers"><img alt="LitePic Stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+      <td align="center"><a href="https://github.com/gentpan/LitePic/stargazers"><img alt="LitePic Stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
     <tr>
       <td><strong><a href="https://github.com/gentpan/OpenStats">📈&nbsp;OpenStats</a></strong></td>
       <td>菜单栏里的 CPU、GPU、内存与网络监控。</td>
       <td><code>Swift</code></td>
-      <td align="center"><a href="https://github.com/gentpan/OpenStats/stargazers"><img alt="OpenStats Stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+      <td align="center"><a href="https://github.com/gentpan/OpenStats/stargazers"><img alt="OpenStats Stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
     <tr>
       <td><strong><a href="https://github.com/QuotaBar/QuotaBar">⏳&nbsp;QuotaBar</a></strong></td>
       <td>在菜单栏查看 AI 编程工具的额度与重置时间。</td>
       <td><code>Swift</code></td>
-      <td align="center"><a href="https://github.com/QuotaBar/QuotaBar/stargazers"><img alt="QuotaBar Stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+      <td align="center"><a href="https://github.com/QuotaBar/QuotaBar/stargazers"><img alt="QuotaBar Stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
     <tr>
       <td><strong><a href="https://github.com/gentpan/LiteMD">📝&nbsp;LiteMD</a></strong></td>
       <td>原生 Markdown 编辑器，支持实时预览与格式转换。</td>
       <td><code>Swift</code></td>
-      <td align="center"><a href="https://github.com/gentpan/LiteMD/stargazers"><img alt="LiteMD Stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+      <td align="center"><a href="https://github.com/gentpan/LiteMD/stargazers"><img alt="LiteMD Stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
     <tr>
       <td><strong><a href="https://github.com/gentpan/MailEdge">📬&nbsp;MailEdge</a></strong></td>
       <td>Cloudflare 上的 Serverless 邮箱与多渠道发信。</td>
       <td><code>TypeScript</code></td>
-      <td align="center"><a href="https://github.com/gentpan/MailEdge/stargazers"><img alt="MailEdge Stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+      <td align="center"><a href="https://github.com/gentpan/MailEdge/stargazers"><img alt="MailEdge Stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
     <tr>
       <td><strong><a href="https://github.com/CleanIP/sh.cd">🩺&nbsp;sh.cd</a></strong></td>
       <td>一行命令完成服务器体检：硬件性能、IP 与网络质量。</td>
       <td><code>TypeScript</code></td>
-      <td align="center"><a href="https://github.com/CleanIP/sh.cd/stargazers"><img alt="sh.cd Stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+      <td align="center"><a href="https://github.com/CleanIP/sh.cd/stargazers"><img alt="sh.cd Stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
   </tbody>
 </table>
