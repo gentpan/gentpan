@@ -1,4 +1,4 @@
-"""Build public GitHub metrics and optional WakaTime metrics without a PAT.
+"""Build public GitHub metrics without a PAT.
 
 Run locally with an authenticated gh CLI, or set GH_TOKEN in GitHub Actions.
 Only explicit public repository endpoints are queried. No private data is used.
@@ -6,7 +6,6 @@ Only explicit public repository endpoints are queried. No private data is used.
 
 from profile_charts import PALETTE, distribution, metrics
 
-import base64
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -17,7 +16,6 @@ from pathlib import Path
 import subprocess
 import time
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -98,54 +96,6 @@ def history(repo, author_id):
             break
         cursor = data["pageInfo"]["endCursor"]
     return repo, rows
-
-
-def bar(value, total):
-    percentage = value / total * 100 if total else 0
-    blocks = round(percentage / 4)
-    return "█" * blocks + "░" * (25 - blocks), percentage
-
-
-def badge(label, message, color="2874C6"):
-    def encode(value):
-        return quote(str(value).replace("-", "--").replace("_", "__"), safe="")
-    return f"![{label}: {message}](https://img.shields.io/badge/{encode(label)}-{encode(message)}-{color}?style=flat-square)"
-
-
-def waka():
-    key = os.environ.get("WAKATIME_API_KEY")
-    if not key:
-        return badge("Code Time", "Not connected", "667085"), (
-            "```text\n💬 Programming Languages\nWakaTime 未连接，暂无编码时长数据。\n\n"
-            "🔥 Editors\nWakaTime 未连接，暂无编辑器使用数据。\n```"
-        )
-
-    def fetch(path):
-        request = Request("https://wakatime.com/api/v1/users/current/" + path,
-                          headers={"Authorization": "Basic " + base64.b64encode(
-                              (key + ":").encode()).decode()})
-        with urlopen(request, timeout=60) as response:
-            return json.load(response)["data"]
-
-    try:
-        stats = fetch("stats/last_7_days")
-        total = fetch("all_time_since_today")
-        output = ["```text"]
-        for title, field in [("💬 Programming Languages", "languages"), ("🔥 Editors", "editors")]:
-            output.append(title)
-            rows = stats.get(field, [])
-            if not rows:
-                output.append("No Activity Tracked This Week")
-            for row in rows[:8]:
-                blocks, _ = bar(row["percent"], 100)
-                output.append(f'{row["name"]:<20} {row["text"]:<19} {blocks}  {row["percent"]:6.2f} %')
-            output.append("")
-        output.append("```")
-        return badge("Code Time", total.get("text", "Calculating")), "\n".join(output)
-    except (HTTPError, URLError, KeyError):
-        return badge("Code Time", "Unavailable", "667085"), (
-            "> WakaTime 数据暂时不可用；GitHub 统计仍正常更新。"
-        )
 
 
 def timeline(commits):
@@ -231,7 +181,6 @@ def main():
         name = "🌞 Morning" if 6 <= hour < 12 else "🌆 Daytime" if 12 <= hour < 18 else "🌃 Evening" if 18 <= hour < 24 else "🌙 Night"
         time_bins[name] += 1
     languages = Counter(r["language"] for r in own if r["language"])
-    code_badge, weekly = waka()
     stars = sum(r["stargazers_count"] for r in all_repos)
     storage_mb = sum(r["size"] for r in own) / 1024
     contributions = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
@@ -244,22 +193,13 @@ def main():
 ![Quarterly lines added and deleted, grouped by repository language]({raw}/development-timeline.svg?v={version})
 
 <details>
-<summary>每周编码 · WakaTime</summary>
-
-{code_badge}
-
-{weekly}
-
-</details>
-
-<details>
 <summary>数据说明</summary>
 
 - 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及 QuotaBar 的公开非 Fork 仓库。
 - 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
 - 提交时段按 UTC 划分。提交和 Timeline 只统计个人及 QuotaBar 公开仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
 - Timeline 上方是新增行、下方是删除行，按仓库当前主要语言分组；包含生成文件和导入代码。
-- 个人公开仓库约 {storage_mb:,.1f} MB。WakaTime 连接后显示真实编码时长与编辑器统计；访问量未追踪。
+- 个人公开仓库约 {storage_mb:,.1f} MB；访问量未追踪。
 
 </details>
 
