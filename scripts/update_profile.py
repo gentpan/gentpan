@@ -194,13 +194,13 @@ def timeline(commits):
             for amount, offset, negative in [(added, up, False), (deleted, down, True)]:
                 height = amount / maximum * extent
                 y = baseline + offset if negative else baseline - offset - height
-                svg.append(f'<rect x="{x-width/2:.2f}" y="{y:.2f}" width="{width:.2f}" height="{height:.2f}" fill="{palette.get(language, "8993A3")}"><title>{html.escape(quarter + " · " + language)}: {"-" if negative else "+"}{amount:,} lines</title></rect>')
+                svg.append(f'<rect x="{x-width/2:.2f}" y="{y:.2f}" width="{width:.2f}" height="{height:.2f}" fill="#{palette.get(language, "8993A3")}"><title>{html.escape(quarter + " · " + language)}: {"-" if negative else "+"}{amount:,} lines</title></rect>')
             up += added / maximum * extent
             down += deleted / maximum * extent
         svg.append(f'<text class="muted" x="{x:.2f}" y="416" text-anchor="middle" font-size="12">{quarter}</text>')
     for i, language in enumerate(languages):
         y = 112 + i * 25
-        svg += [f'<rect x="874" y="{y-11}" width="11" height="11" rx="3" fill="{palette.get(language, "8993A3")}"/>',
+        svg += [f'<rect x="874" y="{y-11}" width="11" height="11" rx="3" fill="#{palette.get(language, "8993A3")}"/>',
                 f'<text x="896" y="{y}" font-size="13">{html.escape(language)}</text>']
     if not commits:
         svg.append('<text x="440" y="220" text-anchor="middle">No attributed public commits found</text>')
