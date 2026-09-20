@@ -274,7 +274,7 @@ def main():
 
 ### Timeline
 
-![按季度与仓库主要语言统计的代码增删](assets/code-timeline.svg?v={NOW.strftime('%Y%m%d%H%M')})
+![按季度与仓库主要语言统计的代码增删](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/code-timeline.svg?v={NOW.strftime('%Y%m%d%H%M')})
 
 <details>
 <summary>数据口径与连接状态</summary>

@@ -93,7 +93,7 @@ Ruby                       1 repos   █░░░░░░░░░░░░░�
 
 ### Timeline
 
-![按季度与仓库主要语言统计的代码增删](assets/code-timeline.svg?v=202609201112)
+![按季度与仓库主要语言统计的代码增删](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/code-timeline.svg?v=202609201112)
 
 <details>
 <summary>数据口径与连接状态</summary>
