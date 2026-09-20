@@ -24,9 +24,20 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gentpan/gentpan/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gentpan/gentpan/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/gentpan/gentpan/output/github-contribution-grid-snake.svg">
+</picture>
+
 </div>
 
 <br />
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <table>
 <tr>
@@ -157,16 +168,6 @@ Building a small cross-platform home for AI coding usage:
 - [QuotaBar](https://github.com/QuotaBar/QuotaBar) · macOS version
 - [QuotaBar-Linux](https://github.com/QuotaBar/QuotaBar-Linux) · Linux version, in development
 - [QuotaBar-Windows](https://github.com/QuotaBar/QuotaBar-Windows) · Windows version, in development
-
-## GitHub activity
-
-<div align="center">
-
-![GitHub contribution graph](https://ghchart.rshah.org/gentpan)
-
-</div>
-
-<br />
 
 <div align="center">
 
