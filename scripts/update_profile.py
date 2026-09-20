@@ -20,7 +20,9 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 OWNER = "gentpan"
-ORG = "QuotaBar"
+# Verified active owner memberships. Explicit configuration also works with the
+# repository-scoped Actions token, which cannot discover private memberships.
+ORGS = ("QuotaBar", "CleanIP", "utterlog", "ImgRouter")
 NOW = datetime.now(timezone.utc)
 
 
@@ -60,11 +62,22 @@ def repositories(path):
     result = []
     page = 1
     while True:
-        batch = github(f"{path}?per_page=100&page={page}")
-        result.extend(r for r in batch if not r["private"] and not r["fork"])
+        visibility = "type=public&" if path.startswith("orgs/") else ""
+        batch = github(f"{path}?{visibility}per_page=100&page={page}")
+        result.extend(r for r in batch if not r["private"])
         if len(batch) < 100:
             return result
         page += 1
+
+
+def profile_repositories():
+    """Count each public repository once across the user and owned organizations."""
+    own = repositories("users/" + OWNER + "/repos")
+    by_id = {repo["id"]: repo for repo in own}
+    for organization in ORGS:
+        for repo in repositories("orgs/" + organization + "/repos"):
+            by_id[repo["id"]] = repo
+    return own, list(by_id.values())
 
 
 def history(repo, author_id):
@@ -162,9 +175,9 @@ def timeline(commits):
 
 def main():
     profile = github("users/" + OWNER)
-    own = repositories("users/" + OWNER + "/repos")
-    org = repositories("orgs/" + ORG + "/repos")
-    all_repos = own + org
+    own, all_repos = profile_repositories()
+    history_repos = [repo for repo in all_repos if not repo["fork"]]
+    organization_names = "、".join(ORGS)
     year_start = f"{NOW.year}-01-01T00:00:00Z"
     query = """query($login:String!,$from:DateTime!) { user(login:$login) {
       id contributionsCollection(from:$from) { contributionCalendar { totalContributions } }
@@ -172,7 +185,7 @@ def main():
     user = github("graphql", {"query": query, "variables": {"login": OWNER, "from": year_start}})["data"]["user"]
     commits = {}
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for repo, rows in pool.map(lambda r: history(r, user["id"]), all_repos):
+        for repo, rows in pool.map(lambda r: history(r, user["id"]), history_repos):
             for row in rows:
                 commits.setdefault(row["oid"], (row, repo["language"] or "Other"))
     time_bins = Counter({"🌞 Morning": 0, "🌆 Daytime": 0, "🌃 Evening": 0, "🌙 Night": 0})
@@ -180,13 +193,13 @@ def main():
         hour = datetime.fromisoformat(row["committedDate"].replace("Z", "+00:00")).hour
         name = "🌞 Morning" if 6 <= hour < 12 else "🌆 Daytime" if 12 <= hour < 18 else "🌃 Evening" if 18 <= hour < 24 else "🌙 Night"
         time_bins[name] += 1
-    languages = Counter(r["language"] for r in own if r["language"])
+    languages = Counter(r["language"] for r in own if r["language"] and not r["fork"])
     stars = sum(r["stargazers_count"] for r in all_repos)
     storage_mb = sum(r["size"] for r in own) / 1024
     contributions = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     version = NOW.strftime('%Y%m%d%H%M%S')
     raw = "https://raw.githubusercontent.com/gentpan/gentpan/main/assets"
-    section = f"""![GitHub overview: {contributions:,} contributions, {len(all_repos)} public non-fork repositories, {stars} stars, {profile['followers']} followers]({raw}/overview.svg?v={version})
+    section = f"""![GitHub overview: {contributions:,} contributions, {len(all_repos)} public repositories, {stars} stars, {profile['followers']} followers]({raw}/overview.svg?v={version})
 
 ![Repository languages and commit rhythm, UTC]({raw}/distribution.svg?v={version})
 
@@ -195,9 +208,9 @@ def main():
 <details>
 <summary>ℹ️ 数据说明</summary>
 
-- 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及 QuotaBar 的公开非 Fork 仓库。
+- 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及所拥有组织（{organization_names}）的全部公开仓库，按仓库 ID 去重。统计包含 Fork 仓库自身获得的 Star，不包含其上游仓库的 Star；不读取或展示私有仓库。
 - 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
-- 提交时段按 UTC 划分。提交和 Timeline 只统计个人及 QuotaBar 公开仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
+- 提交时段按 UTC 划分。提交和 Timeline 只统计个人及上述组织公开非 Fork 仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
 - Timeline 上方是新增行、下方是删除行，按仓库当前主要语言分组；包含生成文件和导入代码。
 - 个人公开仓库约 {storage_mb:,.1f} MB；访问量未追踪。
 
@@ -217,7 +230,10 @@ def main():
         contributions, NOW.year, len(all_repos), stars, profile["followers"]))
     (ROOT / "assets" / "distribution.svg").write_text(distribution(languages, time_bins))
     readme_path.write_text(before + start + "\n" + section + "\n" + end + after)
-    print(f"Updated profile: {len(all_repos)} public repositories, {len(commits)} attributed commits, {contributions} annual contributions.")
+    print(f"Updated profile: {len(all_repos)} public repositories, {stars} stars, {len(commits)} attributed commits, {contributions} annual contributions.")
+    for owner in (OWNER, *ORGS):
+        owner_repos = [r for r in all_repos if r["owner"]["login"].lower() == owner.lower()]
+        print(f"  {owner}: {len(owner_repos)} public repositories, {sum(r['stargazers_count'] for r in owner_repos)} stars")
 
 
 if __name__ == "__main__":

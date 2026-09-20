@@ -19,8 +19,8 @@ def text(x, y, value, size=14, extra=""):
 
 def metrics(contributions, year, repos, stars, followers):
     items = [(f"CONTRIBUTIONS · {year}", contributions, "GitHub contribution calendar"),
-             ("PUBLIC REPOSITORIES", repos, "gentpan + QuotaBar"),
-             ("PROJECT STARS", stars, "Public non-fork repositories"),
+             ("PUBLIC REPOSITORIES", repos, "Personal + owned organizations"),
+             ("PROJECT STARS", stars, "Personal + owned organizations"),
              ("FOLLOWERS", followers, "GitHub community")]
     svg = start(1080, 124, "GitHub overview", "; ".join(f"{a}: {b:,}" for a,b,_ in items))
     for i, (label, value, subtitle) in enumerate(items):
