@@ -45,7 +45,7 @@
 
 > 📦 **236.3 MB** · 个人公开仓库大小合计（GitHub API）
 >
-> 🏆 **12,725 Contributions in 2026** · GitHub 贡献日历
+> 🏆 **12,726 Contributions in 2026** · GitHub 贡献日历
 >
 > 📜 **41 Public Repositories** · gentpan
 >
@@ -58,10 +58,10 @@
 ### I'm a Night 🦉
 
 ```text
-🌞 Morning                242 commits ███░░░░░░░░░░░░░░░░░░░░░░   12.64 %
-🌆 Daytime                613 commits ████████░░░░░░░░░░░░░░░░░   32.03 %
-🌃 Evening                792 commits ██████████░░░░░░░░░░░░░░░   41.38 %
-🌙 Night                  267 commits ███░░░░░░░░░░░░░░░░░░░░░░   13.95 %
+🌞 Morning                243 commits ███░░░░░░░░░░░░░░░░░░░░░░   12.69 %
+🌆 Daytime                613 commits ████████░░░░░░░░░░░░░░░░░   32.01 %
+🌃 Evening                792 commits ██████████░░░░░░░░░░░░░░░   41.36 %
+🌙 Night                  267 commits ███░░░░░░░░░░░░░░░░░░░░░░   13.94 %
 ```
 
 <sub>按 UTC 划分：Morning 06–12、Daytime 12–18、Evening 18–24、Night 00–06。统计公开仓库默认分支中 GitHub 归属到 gentpan 的提交。</sub>
@@ -79,14 +79,14 @@ WakaTime 未连接，暂无编辑器使用数据。
 ### I Mostly Code in PHP
 
 ```text
-PHP                       11 repos   ███████░░░░░░░░░░░░░░░░░░   29.73 %
-TypeScript                 9 repos   ██████░░░░░░░░░░░░░░░░░░░   24.32 %
-Go                         5 repos   ███░░░░░░░░░░░░░░░░░░░░░░   13.51 %
-JavaScript                 5 repos   ███░░░░░░░░░░░░░░░░░░░░░░   13.51 %
-Python                     3 repos   ██░░░░░░░░░░░░░░░░░░░░░░░    8.11 %
-Swift                      2 repos   █░░░░░░░░░░░░░░░░░░░░░░░░    5.41 %
-Vue                        1 repos   █░░░░░░░░░░░░░░░░░░░░░░░░    2.70 %
-Ruby                       1 repos   █░░░░░░░░░░░░░░░░░░░░░░░░    2.70 %
+PHP                       11 repos   ███████░░░░░░░░░░░░░░░░░░   28.95 %
+TypeScript                 9 repos   ██████░░░░░░░░░░░░░░░░░░░   23.68 %
+Go                         5 repos   ███░░░░░░░░░░░░░░░░░░░░░░   13.16 %
+JavaScript                 5 repos   ███░░░░░░░░░░░░░░░░░░░░░░   13.16 %
+Python                     4 repos   ███░░░░░░░░░░░░░░░░░░░░░░   10.53 %
+Swift                      2 repos   █░░░░░░░░░░░░░░░░░░░░░░░░    5.26 %
+Vue                        1 repos   █░░░░░░░░░░░░░░░░░░░░░░░░    2.63 %
+Ruby                       1 repos   █░░░░░░░░░░░░░░░░░░░░░░░░    2.63 %
 ```
 
 <sub>按个人公开非 Fork 仓库的主要语言计数；排除未识别语言的仓库。不是编码时长或熟练度。</sub>
@@ -106,7 +106,7 @@ Ruby                       1 repos   █░░░░░░░░░░░░░�
 
 </details>
 
-<sub>Last updated on 2026-09-20 11:09 UTC</sub>
+<sub>Last updated on 2026-09-20 11:10 UTC</sub>
 <!--END_SECTION:waka-->
 
 <a id="projects"></a>
