@@ -2,13 +2,54 @@
 
 ## 🚀 Start Here
 
-| 项目 | 简介 | 技术 | Stars |
-| :--- | :--- | :--- | :---: |
-| **[LitePic](https://github.com/gentpan/LitePic)** | 相册、图片处理、Passkey 与远程存储。 | `PHP` | [![Stars](https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/LitePic/stargazers) |
-| **[OpenStats](https://github.com/gentpan/OpenStats)** | 菜单栏里的 CPU、GPU、内存与网络监控。 | `Swift` | [![Stars](https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/OpenStats/stargazers) |
-| **[QuotaBar](https://github.com/QuotaBar/QuotaBar)** | 在菜单栏查看 AI 编程工具的额度与重置时间。 | `Swift` | [![Stars](https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/QuotaBar/QuotaBar/stargazers) |
-| **[LiteMD](https://github.com/gentpan/LiteMD)** | 原生 Markdown 编辑器，支持实时预览与格式转换。 | `Swift` | [![Stars](https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/LiteMD/stargazers) |
-| **[MailEdge](https://github.com/gentpan/MailEdge)** | Cloudflare 上的 Serverless 邮箱与多渠道发信。 | `TypeScript` | [![Stars](https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/MailEdge/stargazers) |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">项目</th>
+      <th align="left" width="100%">简介</th>
+      <th align="left">技术</th>
+      <th align="center">Stars</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong><a href="https://github.com/gentpan/LitePic">🖼️&nbsp;LitePic</a></strong></td>
+      <td>相册、图片处理、Passkey 与远程存储。</td>
+      <td><code>PHP</code></td>
+      <td align="center"><a href="https://github.com/gentpan/LitePic/stargazers"><img alt="LitePic Stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://github.com/gentpan/OpenStats">📈&nbsp;OpenStats</a></strong></td>
+      <td>菜单栏里的 CPU、GPU、内存与网络监控。</td>
+      <td><code>Swift</code></td>
+      <td align="center"><a href="https://github.com/gentpan/OpenStats/stargazers"><img alt="OpenStats Stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://github.com/QuotaBar/QuotaBar">⏳&nbsp;QuotaBar</a></strong></td>
+      <td>在菜单栏查看 AI 编程工具的额度与重置时间。</td>
+      <td><code>Swift</code></td>
+      <td align="center"><a href="https://github.com/QuotaBar/QuotaBar/stargazers"><img alt="QuotaBar Stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://github.com/gentpan/LiteMD">📝&nbsp;LiteMD</a></strong></td>
+      <td>原生 Markdown 编辑器，支持实时预览与格式转换。</td>
+      <td><code>Swift</code></td>
+      <td align="center"><a href="https://github.com/gentpan/LiteMD/stargazers"><img alt="LiteMD Stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://github.com/gentpan/MailEdge">📬&nbsp;MailEdge</a></strong></td>
+      <td>Cloudflare 上的 Serverless 邮箱与多渠道发信。</td>
+      <td><code>TypeScript</code></td>
+      <td align="center"><a href="https://github.com/gentpan/MailEdge/stargazers"><img alt="MailEdge Stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://github.com/CleanIP/sh.cd">🩺&nbsp;sh.cd</a></strong></td>
+      <td>一行命令完成服务器体检：硬件性能、IP 与网络质量。</td>
+      <td><code>TypeScript</code></td>
+      <td align="center"><a href="https://github.com/CleanIP/sh.cd/stargazers"><img alt="sh.cd Stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=%E2%98%85&amp;color=5486B8&amp;labelColor=303D4D"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 📊 Development
 
