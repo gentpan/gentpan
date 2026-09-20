@@ -274,7 +274,7 @@ def main():
 
 ### Timeline
 
-![按季度与仓库主要语言统计的代码增删](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/code-timeline.svg?v={NOW.strftime('%Y%m%d%H%M')})
+![按季度与仓库主要语言统计的代码增删](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v={NOW.strftime('%Y%m%d%H%M')})
 
 <details>
 <summary>数据口径与连接状态</summary>
@@ -296,7 +296,7 @@ def main():
     before, rest = readme.split(start)
     _, after = rest.split(end)
     chart = timeline(commits)
-    (ROOT / "assets" / "code-timeline.svg").write_text(chart)
+    (ROOT / "assets" / "development-timeline.svg").write_text(chart)
     readme_path.write_text(before + start + "\n" + section + "\n" + end + after)
     print(f"Updated profile: {len(all_repos)} public repositories, {len(commits)} attributed commits, {contributions} annual contributions.")
 
