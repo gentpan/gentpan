@@ -6,7 +6,7 @@
   <thead>
     <tr>
       <th align="left">项目</th>
-      <th align="left" width="100%">简介</th>
+      <th align="left" width="10000">简介</th>
       <th align="left">技术</th>
       <th align="center">Stars</th>
     </tr>
