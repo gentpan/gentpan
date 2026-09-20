@@ -4,6 +4,8 @@ Run locally with an authenticated gh CLI, or set GH_TOKEN in GitHub Actions.
 Only explicit public repository endpoints are queried. No private data is used.
 """
 
+from profile_charts import PALETTE, distribution, metrics
+
 import base64
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
@@ -104,14 +106,6 @@ def bar(value, total):
     return "█" * blocks + "░" * (25 - blocks), percentage
 
 
-def code_table(rows, total, unit):
-    output = ["```text"]
-    for name, count in rows:
-        blocks, percent = bar(count, total)
-        output.append(f"{name:<20} {count:>7,} {unit:<7} {blocks}  {percent:6.2f} %")
-    return "\n".join(output + ["```"])
-
-
 def badge(label, message, color="2874C6"):
     def encode(value):
         return quote(str(value).replace("-", "--").replace("_", "__"), safe="")
@@ -162,11 +156,18 @@ def timeline(commits):
         quarter = f"{date.year} Q{(date.month - 1) // 3 + 1}"
         values[quarter][language][0] += row["additions"]
         values[quarter][language][1] += row["deletions"]
+    if values:
+        first = min(values)
+        year, quarter = int(first[:4]), int(first[-1])
+        last = max(values)
+        while f"{year} Q{quarter}" <= last:
+            values[f"{year} Q{quarter}"]
+            quarter += 1
+            if quarter == 5:
+                year, quarter = year + 1, 1
     quarters = sorted(values)
     languages = sorted({language for data in values.values() for language in data})
-    palette = {"Swift": "F28C45", "TypeScript": "3B82D0", "JavaScript": "D6AE28",
-               "PHP": "8B79BF", "Go": "2FA6AD", "Python": "57A56B", "Vue": "42B88C",
-               "HTML": "D87760", "Ruby": "C95D6C", "Other": "8993A3"}
+    palette = PALETTE
     w, h, baseline, extent = 1080, 520, 244, 142
     left, right = 100, 830
     maximum = max([sum(pair[i] for pair in data.values())
@@ -234,60 +235,35 @@ def main():
     stars = sum(r["stargazers_count"] for r in all_repos)
     storage_mb = sum(r["size"] for r in own) / 1024
     contributions = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-    headline = "I'm an Early 🐤" if time_bins["🌞 Morning"] + time_bins["🌆 Daytime"] >= time_bins["🌃 Evening"] + time_bins["🌙 Night"] else "I'm a Night 🦉"
-    if not commits:
-        headline = "Commit activity"
-    top_language = languages.most_common(1)[0][0] if languages else "—"
-    section = f"""{code_badge}
-{badge("Profile Views", "Not tracked", "667085")}
-{badge("Public project stars", f"{stars:,}")}
+    version = NOW.strftime('%Y%m%d%H%M%S')
+    raw = "https://raw.githubusercontent.com/gentpan/gentpan/main/assets"
+    section = f"""![GitHub overview: {contributions:,} contributions, {len(all_repos)} public non-fork repositories, {stars} stars, {profile['followers']} followers]({raw}/overview.svg?v={version})
 
-### 🐱 My GitHub Data
+![Repository languages and commit rhythm, UTC]({raw}/distribution.svg?v={version})
 
-> 📦 **{storage_mb:,.1f} MB** · 个人公开仓库大小合计（GitHub API）
->
-> 🏆 **{contributions:,} Contributions in {NOW.year}** · GitHub 贡献日历
->
-> 📜 **{profile['public_repos']} Public Repositories** · gentpan
->
-> 🧩 **{len(org)} Public Repositories** · QuotaBar
->
-> ⭐ **{stars:,} Stars** · 个人与 QuotaBar 公开非 Fork 仓库合计
->
-> 👥 **{profile['followers']} Followers**
+![Quarterly lines added and deleted, grouped by repository language]({raw}/development-timeline.svg?v={version})
 
-### {headline}
+<details>
+<summary>每周编码 · WakaTime</summary>
 
-{code_table(time_bins.items(), len(commits), 'commits')}
-
-<sub>按 UTC 划分：Morning 06–12、Daytime 12–18、Evening 18–24、Night 00–06。统计公开仓库默认分支中 GitHub 归属到 gentpan 的提交。</sub>
-
-### 📊 This Week I Spent My Time On
+{code_badge}
 
 {weekly}
 
-### I Mostly Code in {top_language}
-
-{code_table(languages.most_common(), sum(languages.values()), 'repos')}
-
-<sub>按个人公开非 Fork 仓库的主要语言计数；排除未识别语言的仓库。不是编码时长或熟练度。</sub>
-
-### Timeline
-
-![按季度与仓库主要语言统计的代码增删](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v={NOW.strftime('%Y%m%d%H%M')})
+</details>
 
 <details>
-<summary>数据口径与连接状态</summary>
+<summary>数据说明</summary>
 
-- GitHub 数据每天自动更新；项目 Star 徽章由 Shields.io 缓存刷新。
-- 提交与 Timeline 覆盖 gentpan 和 QuotaBar 的公开非 Fork 仓库，只计默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重；未关联账号的提交不计入。
-- Timeline 上方为新增行、下方为删除行，按仓库当前主要语言分组，包含导入和生成文件，不代表净代码量或工作时长。
-- 私有仓库数量、账号存储额度和访问次数不从公开数据猜测；Profile Views 当前未追踪。
-- WakaTime 连接后显示真实 Code Time、最近 7 天语言与编辑器统计。未连接时保留状态说明。
+- 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及 QuotaBar 的公开非 Fork 仓库。
+- 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
+- 提交时段按 UTC 划分。提交和 Timeline 只统计个人及 QuotaBar 公开仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
+- Timeline 上方是新增行、下方是删除行，按仓库当前主要语言分组；包含生成文件和导入代码。
+- 个人公开仓库约 {storage_mb:,.1f} MB。WakaTime 连接后显示真实编码时长与编辑器统计；访问量未追踪。
 
 </details>
 
-<sub>Last updated on {NOW.strftime('%Y-%m-%d %H:%M UTC')}</sub>"""
+<sub>Updated {NOW.strftime('%Y-%m-%d %H:%M UTC')}</sub>"""
     readme_path = ROOT / "README.md"
     readme = readme_path.read_text()
     start, end = "<!--START_SECTION:waka-->", "<!--END_SECTION:waka-->"
@@ -297,6 +273,9 @@ def main():
     _, after = rest.split(end)
     chart = timeline(commits)
     (ROOT / "assets" / "development-timeline.svg").write_text(chart)
+    (ROOT / "assets" / "overview.svg").write_text(metrics(
+        contributions, NOW.year, len(all_repos), stars, profile["followers"]))
+    (ROOT / "assets" / "distribution.svg").write_text(distribution(languages, time_bins))
     readme_path.write_text(before + start + "\n" + section + "\n" + end + after)
     print(f"Updated profile: {len(all_repos)} public repositories, {len(commits)} attributed commits, {contributions} annual contributions.")
 
