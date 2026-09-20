@@ -10,8 +10,6 @@
 | **[LiteMD](https://github.com/gentpan/LiteMD)** | 原生 Markdown 编辑器，支持实时预览与格式转换。 | `Swift` | [![Stars](https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/LiteMD/stargazers) |
 | **[MailEdge](https://github.com/gentpan/MailEdge)** | Cloudflare 上的 Serverless 邮箱与多渠道发信。 | `TypeScript` | [![Stars](https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&label=%E2%98%85&color=5486B8&labelColor=303D4D)](https://github.com/gentpan/MailEdge/stargazers) |
 
-<p><a href="https://gentpan.dev">Website</a> · <a href="https://xifeng.net">Blog</a> · <a href="https://github.com/gentpan?tab=repositories">更多项目 ↗</a></p>
-
 ## Development
 
 <!--START_SECTION:waka-->
