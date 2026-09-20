@@ -1,0 +1,10 @@
+Generated with the built-in image_gen tool.
+
+Use case: stylized-concept
+Asset type: GitHub profile cover banner for gentpan, an independent software builder.
+Primary request: Create a refined, beautifully art-directed panoramic cover based on this maker's projects: native macOS menu bar monitoring (QuotaBar, OpenStats), Markdown writing (LiteMD), self-hosted photo libraries (LitePic), email (MailEdge), network tools and small infrastructure.
+Style: premium editorial 3D illustration, precise crafted miniature software objects, quiet and sophisticated, not a busy dashboard screenshot.
+Composition: wide landscape banner about 3:1 aspect ratio. Generous negative space around an elegant large wordmark "gentpan"; a carefully arranged cluster of sculptural app-window forms and rounded tiles, a small performance graph, folded document, photo frame with abstract landscape, envelope and interconnected nodes. Restrained number of objects, all clearly legible at GitHub README width. Broad margins. Integrated typographic and illustrative composition.
+Materials: frosted translucent glass, satin aluminum, porcelain, subtle refraction, soft ambient shadows. Background ivory with soft cool blue light. Small blue, mint and warm apricot accents. Crisp edges and elegant restrained lighting.
+Text (verbatim): "gentpan" only, in large dark graphite contemporary sans serif. No other text.
+Constraints: polished actual cover image, no device brand logos, no invented project logos, no watermarks, no border, no extra lettering. The forms evoke software categories rather than pretending to be actual screenshots.
