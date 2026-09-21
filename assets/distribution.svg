@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 348" role="img" aria-labelledby="title desc">
-<title id="title">Languages and commit rhythm</title><desc id="desc">Repository primary languages: PHP 11, Go 5, Python 4, TypeScript 9, Vue 1, Ruby 1, JavaScript 5, Swift 2. Commit rhythm in UTC: 🌞 Morning 350, 🌆 Daytime 881, 🌃 Evening 1078, 🌙 Night 344</desc>
+<title id="title">Languages and commit rhythm</title><desc id="desc">Repository primary languages: PHP 11, Go 5, Python 4, TypeScript 9, Vue 1, Ruby 1, JavaScript 5, Swift 2. Commit rhythm in UTC: 🌞 Morning 350, 🌆 Daytime 881, 🌃 Evening 1096, 🌙 Night 344</desc>
 <style>text{font-family:system-ui,-apple-system,sans-serif;fill:#334155}.muted{fill:#738196}.card{fill:#f6f8fa;stroke:#e8edf2}.track{fill:none;stroke:#e5eaf0}.bartrack{fill:#e5eaf0}@media(prefers-color-scheme:dark){text{fill:#e1e8f0}.muted{fill:#93a4b8}.card{fill:#161e29;stroke:#2b3645}.track{stroke:#2b3645}.bartrack{fill:#2b3645}}</style>
 <rect class="card" x="1" y="1" width="526" height="346" rx="16"/>
 <rect class="card" x="545" y="1" width="534" height="346" rx="16"/>
@@ -43,21 +43,21 @@
 <text x="130" y="196" font-size="36" text-anchor="middle" font-weight="650">38</text>
 <text x="130" y="220" font-size="13" text-anchor="middle" class="muted">repositories</text>
 <text x="570" y="110" font-size="14" >Morning</text>
-<text x="1051" y="110" font-size="13" text-anchor="end" class="muted">350 · 13.2%</text>
+<text x="1051" y="110" font-size="13" text-anchor="end" class="muted">350 · 13.1%</text>
 <rect class="bartrack" x="570" y="122" width="481" height="10" rx="5"/>
-<rect x="570" y="122" width="63.456" height="10" rx="5" fill="#9CBFCB"/>
+<rect x="570" y="122" width="63.029" height="10" rx="5" fill="#9CBFCB"/>
 <text x="570" y="165" font-size="14" >Daytime</text>
-<text x="1051" y="165" font-size="13" text-anchor="end" class="muted">881 · 33.2%</text>
+<text x="1051" y="165" font-size="13" text-anchor="end" class="muted">881 · 33.0%</text>
 <rect class="bartrack" x="570" y="177" width="481" height="10" rx="5"/>
-<rect x="570" y="177" width="159.729" height="10" rx="5" fill="#83B0C3"/>
+<rect x="570" y="177" width="158.653" height="10" rx="5" fill="#83B0C3"/>
 <text x="570" y="220" font-size="14" >Evening</text>
-<text x="1051" y="220" font-size="13" text-anchor="end" class="muted">1,078 · 40.6%</text>
+<text x="1051" y="220" font-size="13" text-anchor="end" class="muted">1,096 · 41.0%</text>
 <rect class="bartrack" x="570" y="232" width="481" height="10" rx="5"/>
-<rect x="570" y="232" width="195.446" height="10" rx="5" fill="#5486B8"/>
+<rect x="570" y="232" width="197.370" height="10" rx="5" fill="#5486B8"/>
 <text x="570" y="275" font-size="14" >Night</text>
-<text x="1051" y="275" font-size="13" text-anchor="end" class="muted">344 · 13.0%</text>
+<text x="1051" y="275" font-size="13" text-anchor="end" class="muted">344 · 12.9%</text>
 <rect class="bartrack" x="570" y="287" width="481" height="10" rx="5"/>
-<rect x="570" y="287" width="62.369" height="10" rx="5" fill="#8D85B3"/>
+<rect x="570" y="287" width="61.948" height="10" rx="5" fill="#8D85B3"/>
 <text x="26" y="327" font-size="11" class="muted">Excludes forks and repositories without a language</text>
 <text x="570" y="327" font-size="11" class="muted">06–12 / 12–18 / 18–24 / 00–06 · default branches</text>
 </svg>

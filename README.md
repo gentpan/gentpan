@@ -54,11 +54,11 @@
 ## 📊 Development
 
 <!--START_SECTION:waka-->
-![GitHub overview: 12,739 contributions, 49 public repositories, 172 stars, 11 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20260920113524)
+![GitHub overview: 12,757 contributions, 49 public repositories, 175 stars, 11 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20260921050309)
 
-![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20260920113524)
+![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20260921050309)
 
-![Quarterly lines added and deleted, grouped by repository language](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v=20260920113524)
+![Quarterly lines added and deleted, grouped by repository language](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v=20260921050309)
 
 <details>
 <summary>ℹ️ 数据说明</summary>
@@ -67,11 +67,11 @@
 - 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
 - 提交时段按 UTC 划分。提交和 Timeline 只统计个人及上述组织公开非 Fork 仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
 - Timeline 上方是新增行、下方是删除行，按仓库当前主要语言分组；包含生成文件和导入代码。
-- 个人公开仓库约 236.3 MB；访问量未追踪。
+- 个人公开仓库约 239.4 MB；访问量未追踪。
 
 </details>
 
-<sub>Updated 2026-09-20 11:35 UTC</sub>
+<sub>Updated 2026-09-21 05:03 UTC</sub>
 <!--END_SECTION:waka-->
 
 <details>
