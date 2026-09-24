@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 348" role="img" aria-labelledby="title desc">
-<title id="title">Languages and commit rhythm</title><desc id="desc">Repository primary languages: PHP 11, Go 5, Python 4, TypeScript 9, Vue 1, Ruby 1, JavaScript 5, Swift 2. Commit rhythm in UTC: 🌞 Morning 354, 🌆 Daytime 882, 🌃 Evening 1125, 🌙 Night 344</desc>
+<title id="title">Languages and commit rhythm</title><desc id="desc">Repository primary languages: PHP 11, Go 5, Python 4, Swift 3, TypeScript 9, Vue 1, Ruby 1, JavaScript 5. Commit rhythm in UTC: 🌞 Morning 357, 🌆 Daytime 897, 🌃 Evening 1134, 🌙 Night 344</desc>
 <style>text{font-family:system-ui,-apple-system,sans-serif;fill:#334155}.muted{fill:#738196}.card{fill:#f6f8fa;stroke:#e8edf2}.track{fill:none;stroke:#e5eaf0}.bartrack{fill:#e5eaf0}@media(prefers-color-scheme:dark){text{fill:#e1e8f0}.muted{fill:#93a4b8}.card{fill:#161e29;stroke:#2b3645}.track{stroke:#2b3645}.bartrack{fill:#2b3645}}</style>
 <rect class="card" x="1" y="1" width="526" height="346" rx="16"/>
 <rect class="card" x="545" y="1" width="534" height="346" rx="16"/>
@@ -8,56 +8,56 @@
 <text x="570" y="38" font-size="21" font-weight="600">Commit rhythm</text>
 <text x="570" y="62" font-size="12" class="muted">Attributed public commits · UTC</text>
 <circle class="track" cx="130" cy="196" r="78" stroke-width="25"/>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#9485B8" stroke-width="25" stroke-dasharray="139.8677 350.2207" stroke-dashoffset="0.0000" transform="rotate(-90 130 196)"><title>PHP: 11 repositories</title></circle>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#9485B8" stroke-width="25" stroke-dasharray="136.2301 353.8584" stroke-dashoffset="0.0000" transform="rotate(-90 130 196)"><title>PHP: 11 repositories</title></circle>
 <rect x="244" y="96" width="9" height="9" rx="3" fill="#9485B8"/>
 <text x="264" y="106" font-size="14" >PHP</text>
-<text x="496" y="106" font-size="13" text-anchor="end" class="muted">11 · 28.9%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#5486B8" stroke-width="25" stroke-dasharray="114.0736 376.0149" stroke-dashoffset="-141.8677" transform="rotate(-90 130 196)"><title>TypeScript: 9 repositories</title></circle>
+<text x="496" y="106" font-size="13" text-anchor="end" class="muted">11 · 28.2%</text>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#5486B8" stroke-width="25" stroke-dasharray="111.0973 378.9911" stroke-dashoffset="-138.2301" transform="rotate(-90 130 196)"><title>TypeScript: 9 repositories</title></circle>
 <rect x="244" y="123" width="9" height="9" rx="3" fill="#5486B8"/>
 <text x="264" y="133" font-size="14" >TypeScript</text>
-<text x="496" y="133" font-size="13" text-anchor="end" class="muted">9 · 23.7%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#60A8AA" stroke-width="25" stroke-dasharray="62.4853 427.6031" stroke-dashoffset="-257.9413" transform="rotate(-90 130 196)"><title>Go: 5 repositories</title></circle>
+<text x="496" y="133" font-size="13" text-anchor="end" class="muted">9 · 23.1%</text>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#60A8AA" stroke-width="25" stroke-dasharray="60.8319 429.2566" stroke-dashoffset="-251.3274" transform="rotate(-90 130 196)"><title>Go: 5 repositories</title></circle>
 <rect x="244" y="150" width="9" height="9" rx="3" fill="#60A8AA"/>
 <text x="264" y="160" font-size="14" >Go</text>
-<text x="496" y="160" font-size="13" text-anchor="end" class="muted">5 · 13.2%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#D5B45B" stroke-width="25" stroke-dasharray="62.4853 427.6031" stroke-dashoffset="-322.4266" transform="rotate(-90 130 196)"><title>JavaScript: 5 repositories</title></circle>
+<text x="496" y="160" font-size="13" text-anchor="end" class="muted">5 · 12.8%</text>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#D5B45B" stroke-width="25" stroke-dasharray="60.8319 429.2566" stroke-dashoffset="-314.1593" transform="rotate(-90 130 196)"><title>JavaScript: 5 repositories</title></circle>
 <rect x="244" y="177" width="9" height="9" rx="3" fill="#D5B45B"/>
 <text x="264" y="187" font-size="14" >JavaScript</text>
-<text x="496" y="187" font-size="13" text-anchor="end" class="muted">5 · 13.2%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#83AC8E" stroke-width="25" stroke-dasharray="49.5883 440.5002" stroke-dashoffset="-386.9119" transform="rotate(-90 130 196)"><title>Python: 4 repositories</title></circle>
+<text x="496" y="187" font-size="13" text-anchor="end" class="muted">5 · 12.8%</text>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#83AC8E" stroke-width="25" stroke-dasharray="48.2655 441.8230" stroke-dashoffset="-376.9911" transform="rotate(-90 130 196)"><title>Python: 4 repositories</title></circle>
 <rect x="244" y="204" width="9" height="9" rx="3" fill="#83AC8E"/>
 <text x="264" y="214" font-size="14" >Python</text>
-<text x="496" y="214" font-size="13" text-anchor="end" class="muted">4 · 10.5%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#ECA36D" stroke-width="25" stroke-dasharray="23.7941 466.2943" stroke-dashoffset="-438.5002" transform="rotate(-90 130 196)"><title>Swift: 2 repositories</title></circle>
+<text x="496" y="214" font-size="13" text-anchor="end" class="muted">4 · 10.3%</text>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#ECA36D" stroke-width="25" stroke-dasharray="35.6991 454.3893" stroke-dashoffset="-427.2566" transform="rotate(-90 130 196)"><title>Swift: 3 repositories</title></circle>
 <rect x="244" y="231" width="9" height="9" rx="3" fill="#ECA36D"/>
 <text x="264" y="241" font-size="14" >Swift</text>
-<text x="496" y="241" font-size="13" text-anchor="end" class="muted">2 · 5.3%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#78B6A3" stroke-width="25" stroke-dasharray="10.8971 479.1914" stroke-dashoffset="-464.2943" transform="rotate(-90 130 196)"><title>Vue: 1 repositories</title></circle>
+<text x="496" y="241" font-size="13" text-anchor="end" class="muted">3 · 7.7%</text>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#78B6A3" stroke-width="25" stroke-dasharray="10.5664 479.5221" stroke-dashoffset="-464.9557" transform="rotate(-90 130 196)"><title>Vue: 1 repositories</title></circle>
 <rect x="244" y="258" width="9" height="9" rx="3" fill="#78B6A3"/>
 <text x="264" y="268" font-size="14" >Vue</text>
 <text x="496" y="268" font-size="13" text-anchor="end" class="muted">1 · 2.6%</text>
-<circle cx="130" cy="196" r="78" fill="none" stroke="#BD7E8D" stroke-width="25" stroke-dasharray="10.8971 479.1914" stroke-dashoffset="-477.1914" transform="rotate(-90 130 196)"><title>Ruby: 1 repositories</title></circle>
+<circle cx="130" cy="196" r="78" fill="none" stroke="#BD7E8D" stroke-width="25" stroke-dasharray="10.5664 479.5221" stroke-dashoffset="-477.5221" transform="rotate(-90 130 196)"><title>Ruby: 1 repositories</title></circle>
 <rect x="244" y="285" width="9" height="9" rx="3" fill="#BD7E8D"/>
 <text x="264" y="295" font-size="14" >Ruby</text>
 <text x="496" y="295" font-size="13" text-anchor="end" class="muted">1 · 2.6%</text>
-<text x="130" y="196" font-size="36" text-anchor="middle" font-weight="650">38</text>
+<text x="130" y="196" font-size="36" text-anchor="middle" font-weight="650">39</text>
 <text x="130" y="220" font-size="13" text-anchor="middle" class="muted">repositories</text>
 <text x="570" y="110" font-size="14" >Morning</text>
-<text x="1051" y="110" font-size="13" text-anchor="end" class="muted">354 · 13.1%</text>
+<text x="1051" y="110" font-size="13" text-anchor="end" class="muted">357 · 13.1%</text>
 <rect class="bartrack" x="570" y="122" width="481" height="10" rx="5"/>
-<rect x="570" y="122" width="62.948" height="10" rx="5" fill="#9CBFCB"/>
+<rect x="570" y="122" width="62.854" height="10" rx="5" fill="#9CBFCB"/>
 <text x="570" y="165" font-size="14" >Daytime</text>
-<text x="1051" y="165" font-size="13" text-anchor="end" class="muted">882 · 32.6%</text>
+<text x="1051" y="165" font-size="13" text-anchor="end" class="muted">897 · 32.8%</text>
 <rect class="bartrack" x="570" y="177" width="481" height="10" rx="5"/>
-<rect x="570" y="177" width="156.836" height="10" rx="5" fill="#83B0C3"/>
+<rect x="570" y="177" width="157.927" height="10" rx="5" fill="#83B0C3"/>
 <text x="570" y="220" font-size="14" >Evening</text>
-<text x="1051" y="220" font-size="13" text-anchor="end" class="muted">1,125 · 41.6%</text>
+<text x="1051" y="220" font-size="13" text-anchor="end" class="muted">1,134 · 41.5%</text>
 <rect class="bartrack" x="570" y="232" width="481" height="10" rx="5"/>
-<rect x="570" y="232" width="200.046" height="10" rx="5" fill="#5486B8"/>
+<rect x="570" y="232" width="199.654" height="10" rx="5" fill="#5486B8"/>
 <text x="570" y="275" font-size="14" >Night</text>
-<text x="1051" y="275" font-size="13" text-anchor="end" class="muted">344 · 12.7%</text>
+<text x="1051" y="275" font-size="13" text-anchor="end" class="muted">344 · 12.6%</text>
 <rect class="bartrack" x="570" y="287" width="481" height="10" rx="5"/>
-<rect x="570" y="287" width="61.170" height="10" rx="5" fill="#8D85B3"/>
+<rect x="570" y="287" width="60.565" height="10" rx="5" fill="#8D85B3"/>
 <text x="26" y="327" font-size="11" class="muted">Excludes forks and repositories without a language</text>
 <text x="570" y="327" font-size="11" class="muted">06–12 / 12–18 / 18–24 / 00–06 · default branches</text>
 </svg>
