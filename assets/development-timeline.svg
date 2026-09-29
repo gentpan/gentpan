@@ -124,10 +124,10 @@
 <rect x="745.17" y="258.39" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q3 · Ruby: -106 lines</title></rect>
 <rect x="745.17" y="147.11" width="48.00" height="32.29" fill="#ECA36D"><title>2026 Q3 · Swift: +275,755 lines</title></rect>
 <rect x="745.17" y="258.40" width="48.00" height="3.01" fill="#ECA36D"><title>2026 Q3 · Swift: -25,736 lines</title></rect>
-<rect x="745.17" y="103.28" width="48.00" height="43.83" fill="#5486B8"><title>2026 Q3 · TypeScript: +374,252 lines</title></rect>
-<rect x="745.17" y="261.41" width="48.00" height="22.21" fill="#5486B8"><title>2026 Q3 · TypeScript: -189,680 lines</title></rect>
-<rect x="745.17" y="103.28" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: +5 lines</title></rect>
-<rect x="745.17" y="283.62" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: -1 lines</title></rect>
+<rect x="745.17" y="103.27" width="48.00" height="43.84" fill="#5486B8"><title>2026 Q3 · TypeScript: +374,350 lines</title></rect>
+<rect x="745.17" y="261.41" width="48.00" height="22.22" fill="#5486B8"><title>2026 Q3 · TypeScript: -189,727 lines</title></rect>
+<rect x="745.17" y="103.27" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: +5 lines</title></rect>
+<rect x="745.17" y="283.63" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: -1 lines</title></rect>
 <text class="muted" x="769.17" y="416" text-anchor="middle" font-size="12">2026 Q3</text>
 <rect x="874" y="101" width="11" height="11" rx="3" fill="#60A8AA"/>
 <text x="896" y="112" font-size="13">Go</text>
@@ -147,6 +147,6 @@
 <text x="896" y="287" font-size="13">TypeScript</text>
 <rect x="874" y="301" width="11" height="11" rx="3" fill="#78B6A3"/>
 <text x="896" y="312" font-size="13">Vue</text>
-<text class="muted" x="32" y="465" font-size="12">2,793 attributed commits · full available default-branch history · SHA deduplicated</text>
+<text class="muted" x="32" y="465" font-size="12">2,795 attributed commits · full available default-branch history · SHA deduplicated</text>
 <text class="muted" x="32" y="488" font-size="12">Includes generated / imported lines. Repository language is not a per-file language analysis.</text>
 </svg>
