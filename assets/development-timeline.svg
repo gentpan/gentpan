@@ -15,120 +15,139 @@
 <text class="muted" x="88" y="177.0" text-anchor="end" font-size="12">606.3k</text>
 <path class="grid" d="M100 102H830"/>
 <text class="muted" x="88" y="106" text-anchor="end" font-size="12">1.2M</text>
-<rect x="136.83" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q2 · Go: +0 lines</title></rect>
-<rect x="136.83" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q2 · Go: -0 lines</title></rect>
-<rect x="136.83" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q2 · JavaScript: +0 lines</title></rect>
-<rect x="136.83" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q2 · JavaScript: -0 lines</title></rect>
-<rect x="136.83" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q2 · Other: +0 lines</title></rect>
-<rect x="136.83" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q2 · Other: -0 lines</title></rect>
-<rect x="136.83" y="243.88" width="48.00" height="0.12" fill="#9485B8"><title>2025 Q2 · PHP: +1,057 lines</title></rect>
-<rect x="136.83" y="244.00" width="48.00" height="0.01" fill="#9485B8"><title>2025 Q2 · PHP: -87 lines</title></rect>
-<rect x="136.83" y="243.88" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q2 · Python: +0 lines</title></rect>
-<rect x="136.83" y="244.01" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q2 · Python: -0 lines</title></rect>
-<rect x="136.83" y="243.88" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q2 · Ruby: +0 lines</title></rect>
-<rect x="136.83" y="244.01" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q2 · Ruby: -0 lines</title></rect>
-<rect x="136.83" y="243.88" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q2 · Swift: +0 lines</title></rect>
-<rect x="136.83" y="244.01" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q2 · Swift: -0 lines</title></rect>
-<rect x="136.83" y="243.88" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q2 · TypeScript: +0 lines</title></rect>
-<rect x="136.83" y="244.01" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q2 · TypeScript: -0 lines</title></rect>
-<rect x="136.83" y="243.88" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q2 · Vue: +0 lines</title></rect>
-<rect x="136.83" y="244.01" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q2 · Vue: -0 lines</title></rect>
-<text class="muted" x="160.83" y="416" text-anchor="middle" font-size="12">2025 Q2</text>
-<rect x="258.50" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q3 · Go: +0 lines</title></rect>
-<rect x="258.50" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q3 · Go: -0 lines</title></rect>
-<rect x="258.50" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q3 · JavaScript: +0 lines</title></rect>
-<rect x="258.50" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q3 · JavaScript: -0 lines</title></rect>
-<rect x="258.50" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q3 · Other: +0 lines</title></rect>
-<rect x="258.50" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q3 · Other: -0 lines</title></rect>
-<rect x="258.50" y="243.91" width="48.00" height="0.09" fill="#9485B8"><title>2025 Q3 · PHP: +794 lines</title></rect>
-<rect x="258.50" y="244.00" width="48.00" height="0.07" fill="#9485B8"><title>2025 Q3 · PHP: -613 lines</title></rect>
-<rect x="258.50" y="243.91" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q3 · Python: +0 lines</title></rect>
-<rect x="258.50" y="244.07" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q3 · Python: -0 lines</title></rect>
-<rect x="258.50" y="243.91" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q3 · Ruby: +0 lines</title></rect>
-<rect x="258.50" y="244.07" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q3 · Ruby: -0 lines</title></rect>
-<rect x="258.50" y="243.91" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q3 · Swift: +0 lines</title></rect>
-<rect x="258.50" y="244.07" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q3 · Swift: -0 lines</title></rect>
-<rect x="258.50" y="243.91" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q3 · TypeScript: +0 lines</title></rect>
-<rect x="258.50" y="244.07" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q3 · TypeScript: -0 lines</title></rect>
-<rect x="258.50" y="243.91" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q3 · Vue: +0 lines</title></rect>
-<rect x="258.50" y="244.07" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q3 · Vue: -0 lines</title></rect>
-<text class="muted" x="282.50" y="416" text-anchor="middle" font-size="12">2025 Q3</text>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q4 · Go: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q4 · Go: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q4 · JavaScript: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q4 · JavaScript: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q4 · Other: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q4 · Other: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#9485B8"><title>2025 Q4 · PHP: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#9485B8"><title>2025 Q4 · PHP: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q4 · Python: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q4 · Python: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q4 · Ruby: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q4 · Ruby: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q4 · Swift: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q4 · Swift: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q4 · TypeScript: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q4 · TypeScript: -0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q4 · Vue: +0 lines</title></rect>
-<rect x="380.17" y="244.00" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q4 · Vue: -0 lines</title></rect>
-<text class="muted" x="404.17" y="416" text-anchor="middle" font-size="12">2025 Q4</text>
-<rect x="501.83" y="243.46" width="48.00" height="0.54" fill="#60A8AA"><title>2026 Q1 · Go: +4,613 lines</title></rect>
-<rect x="501.83" y="244.00" width="48.00" height="0.11" fill="#60A8AA"><title>2026 Q1 · Go: -932 lines</title></rect>
-<rect x="501.83" y="242.99" width="48.00" height="0.47" fill="#D5B45B"><title>2026 Q1 · JavaScript: +4,052 lines</title></rect>
-<rect x="501.83" y="244.11" width="48.00" height="0.02" fill="#D5B45B"><title>2026 Q1 · JavaScript: -204 lines</title></rect>
-<rect x="501.83" y="242.99" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q1 · Other: +0 lines</title></rect>
-<rect x="501.83" y="244.13" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q1 · Other: -0 lines</title></rect>
-<rect x="501.83" y="234.06" width="48.00" height="8.93" fill="#9485B8"><title>2026 Q1 · PHP: +76,250 lines</title></rect>
-<rect x="501.83" y="244.13" width="48.00" height="0.30" fill="#9485B8"><title>2026 Q1 · PHP: -2,604 lines</title></rect>
-<rect x="501.83" y="234.06" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q1 · Python: +0 lines</title></rect>
-<rect x="501.83" y="244.44" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q1 · Python: -0 lines</title></rect>
-<rect x="501.83" y="234.06" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q1 · Ruby: +0 lines</title></rect>
-<rect x="501.83" y="244.44" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q1 · Ruby: -0 lines</title></rect>
-<rect x="501.83" y="234.06" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q1 · Swift: +0 lines</title></rect>
-<rect x="501.83" y="244.44" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q1 · Swift: -0 lines</title></rect>
-<rect x="501.83" y="234.06" width="48.00" height="0.00" fill="#5486B8"><title>2026 Q1 · TypeScript: +0 lines</title></rect>
-<rect x="501.83" y="244.44" width="48.00" height="0.00" fill="#5486B8"><title>2026 Q1 · TypeScript: -0 lines</title></rect>
-<rect x="501.83" y="234.06" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q1 · Vue: +0 lines</title></rect>
-<rect x="501.83" y="244.44" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q1 · Vue: -0 lines</title></rect>
-<text class="muted" x="525.83" y="416" text-anchor="middle" font-size="12">2026 Q1</text>
-<rect x="623.50" y="240.53" width="48.00" height="3.47" fill="#60A8AA"><title>2026 Q2 · Go: +29,670 lines</title></rect>
-<rect x="623.50" y="244.00" width="48.00" height="1.37" fill="#60A8AA"><title>2026 Q2 · Go: -11,723 lines</title></rect>
-<rect x="623.50" y="240.53" width="48.00" height="0.00" fill="#D5B45B"><title>2026 Q2 · JavaScript: +0 lines</title></rect>
-<rect x="623.50" y="245.37" width="48.00" height="0.00" fill="#D5B45B"><title>2026 Q2 · JavaScript: -0 lines</title></rect>
-<rect x="623.50" y="240.52" width="48.00" height="0.01" fill="#9AA6B4"><title>2026 Q2 · Other: +84 lines</title></rect>
-<rect x="623.50" y="245.37" width="48.00" height="0.01" fill="#9AA6B4"><title>2026 Q2 · Other: -85 lines</title></rect>
-<rect x="623.50" y="209.57" width="48.00" height="30.95" fill="#9485B8"><title>2026 Q2 · PHP: +264,298 lines</title></rect>
-<rect x="623.50" y="245.38" width="48.00" height="15.08" fill="#9485B8"><title>2026 Q2 · PHP: -128,769 lines</title></rect>
-<rect x="623.50" y="209.57" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q2 · Python: +0 lines</title></rect>
-<rect x="623.50" y="260.46" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q2 · Python: -0 lines</title></rect>
-<rect x="623.50" y="209.57" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q2 · Ruby: +0 lines</title></rect>
-<rect x="623.50" y="260.46" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q2 · Ruby: -0 lines</title></rect>
-<rect x="623.50" y="209.57" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q2 · Swift: +0 lines</title></rect>
-<rect x="623.50" y="260.46" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q2 · Swift: -0 lines</title></rect>
-<rect x="623.50" y="108.62" width="48.00" height="100.94" fill="#5486B8"><title>2026 Q2 · TypeScript: +862,002 lines</title></rect>
-<rect x="623.50" y="260.46" width="48.00" height="57.23" fill="#5486B8"><title>2026 Q2 · TypeScript: -488,733 lines</title></rect>
-<rect x="623.50" y="102.00" width="48.00" height="6.62" fill="#78B6A3"><title>2026 Q2 · Vue: +56,544 lines</title></rect>
-<rect x="623.50" y="317.69" width="48.00" height="1.13" fill="#78B6A3"><title>2026 Q2 · Vue: -9,664 lines</title></rect>
-<text class="muted" x="647.50" y="416" text-anchor="middle" font-size="12">2026 Q2</text>
-<rect x="745.17" y="235.98" width="48.00" height="8.02" fill="#60A8AA"><title>2026 Q3 · Go: +68,491 lines</title></rect>
-<rect x="745.17" y="244.00" width="48.00" height="1.80" fill="#60A8AA"><title>2026 Q3 · Go: -15,366 lines</title></rect>
-<rect x="745.17" y="229.51" width="48.00" height="6.47" fill="#D5B45B"><title>2026 Q3 · JavaScript: +55,264 lines</title></rect>
-<rect x="745.17" y="245.80" width="48.00" height="0.58" fill="#D5B45B"><title>2026 Q3 · JavaScript: -4,989 lines</title></rect>
-<rect x="745.17" y="229.48" width="48.00" height="0.03" fill="#9AA6B4"><title>2026 Q3 · Other: +235 lines</title></rect>
-<rect x="745.17" y="246.38" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q3 · Other: -17 lines</title></rect>
-<rect x="745.17" y="210.46" width="48.00" height="19.02" fill="#9485B8"><title>2026 Q3 · PHP: +162,406 lines</title></rect>
-<rect x="745.17" y="246.39" width="48.00" height="8.37" fill="#9485B8"><title>2026 Q3 · PHP: -71,444 lines</title></rect>
-<rect x="745.17" y="179.43" width="48.00" height="31.03" fill="#83AC8E"><title>2026 Q3 · Python: +264,983 lines</title></rect>
-<rect x="745.17" y="254.75" width="48.00" height="3.63" fill="#83AC8E"><title>2026 Q3 · Python: -31,026 lines</title></rect>
-<rect x="745.17" y="179.40" width="48.00" height="0.03" fill="#BD7E8D"><title>2026 Q3 · Ruby: +250 lines</title></rect>
-<rect x="745.17" y="258.39" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q3 · Ruby: -106 lines</title></rect>
-<rect x="745.17" y="147.11" width="48.00" height="32.29" fill="#ECA36D"><title>2026 Q3 · Swift: +275,755 lines</title></rect>
-<rect x="745.17" y="258.40" width="48.00" height="3.01" fill="#ECA36D"><title>2026 Q3 · Swift: -25,736 lines</title></rect>
-<rect x="745.17" y="103.27" width="48.00" height="43.84" fill="#5486B8"><title>2026 Q3 · TypeScript: +374,350 lines</title></rect>
-<rect x="745.17" y="261.41" width="48.00" height="22.22" fill="#5486B8"><title>2026 Q3 · TypeScript: -189,727 lines</title></rect>
-<rect x="745.17" y="103.27" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: +5 lines</title></rect>
-<rect x="745.17" y="283.63" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: -1 lines</title></rect>
-<text class="muted" x="769.17" y="416" text-anchor="middle" font-size="12">2026 Q3</text>
+<rect x="128.14" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q2 · Go: +0 lines</title></rect>
+<rect x="128.14" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q2 · Go: -0 lines</title></rect>
+<rect x="128.14" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q2 · JavaScript: +0 lines</title></rect>
+<rect x="128.14" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q2 · JavaScript: -0 lines</title></rect>
+<rect x="128.14" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q2 · Other: +0 lines</title></rect>
+<rect x="128.14" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q2 · Other: -0 lines</title></rect>
+<rect x="128.14" y="243.88" width="48.00" height="0.12" fill="#9485B8"><title>2025 Q2 · PHP: +1,057 lines</title></rect>
+<rect x="128.14" y="244.00" width="48.00" height="0.01" fill="#9485B8"><title>2025 Q2 · PHP: -87 lines</title></rect>
+<rect x="128.14" y="243.88" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q2 · Python: +0 lines</title></rect>
+<rect x="128.14" y="244.01" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q2 · Python: -0 lines</title></rect>
+<rect x="128.14" y="243.88" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q2 · Ruby: +0 lines</title></rect>
+<rect x="128.14" y="244.01" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q2 · Ruby: -0 lines</title></rect>
+<rect x="128.14" y="243.88" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q2 · Swift: +0 lines</title></rect>
+<rect x="128.14" y="244.01" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q2 · Swift: -0 lines</title></rect>
+<rect x="128.14" y="243.88" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q2 · TypeScript: +0 lines</title></rect>
+<rect x="128.14" y="244.01" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q2 · TypeScript: -0 lines</title></rect>
+<rect x="128.14" y="243.88" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q2 · Vue: +0 lines</title></rect>
+<rect x="128.14" y="244.01" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q2 · Vue: -0 lines</title></rect>
+<text class="muted" x="152.14" y="416" text-anchor="middle" font-size="12">2025 Q2</text>
+<rect x="232.43" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q3 · Go: +0 lines</title></rect>
+<rect x="232.43" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q3 · Go: -0 lines</title></rect>
+<rect x="232.43" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q3 · JavaScript: +0 lines</title></rect>
+<rect x="232.43" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q3 · JavaScript: -0 lines</title></rect>
+<rect x="232.43" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q3 · Other: +0 lines</title></rect>
+<rect x="232.43" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q3 · Other: -0 lines</title></rect>
+<rect x="232.43" y="243.91" width="48.00" height="0.09" fill="#9485B8"><title>2025 Q3 · PHP: +794 lines</title></rect>
+<rect x="232.43" y="244.00" width="48.00" height="0.07" fill="#9485B8"><title>2025 Q3 · PHP: -613 lines</title></rect>
+<rect x="232.43" y="243.91" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q3 · Python: +0 lines</title></rect>
+<rect x="232.43" y="244.07" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q3 · Python: -0 lines</title></rect>
+<rect x="232.43" y="243.91" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q3 · Ruby: +0 lines</title></rect>
+<rect x="232.43" y="244.07" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q3 · Ruby: -0 lines</title></rect>
+<rect x="232.43" y="243.91" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q3 · Swift: +0 lines</title></rect>
+<rect x="232.43" y="244.07" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q3 · Swift: -0 lines</title></rect>
+<rect x="232.43" y="243.91" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q3 · TypeScript: +0 lines</title></rect>
+<rect x="232.43" y="244.07" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q3 · TypeScript: -0 lines</title></rect>
+<rect x="232.43" y="243.91" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q3 · Vue: +0 lines</title></rect>
+<rect x="232.43" y="244.07" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q3 · Vue: -0 lines</title></rect>
+<text class="muted" x="256.43" y="416" text-anchor="middle" font-size="12">2025 Q3</text>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q4 · Go: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2025 Q4 · Go: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q4 · JavaScript: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2025 Q4 · JavaScript: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q4 · Other: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2025 Q4 · Other: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#9485B8"><title>2025 Q4 · PHP: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#9485B8"><title>2025 Q4 · PHP: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q4 · Python: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#83AC8E"><title>2025 Q4 · Python: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q4 · Ruby: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#BD7E8D"><title>2025 Q4 · Ruby: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q4 · Swift: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#ECA36D"><title>2025 Q4 · Swift: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q4 · TypeScript: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#5486B8"><title>2025 Q4 · TypeScript: -0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q4 · Vue: +0 lines</title></rect>
+<rect x="336.71" y="244.00" width="48.00" height="0.00" fill="#78B6A3"><title>2025 Q4 · Vue: -0 lines</title></rect>
+<text class="muted" x="360.71" y="416" text-anchor="middle" font-size="12">2025 Q4</text>
+<rect x="441.00" y="243.46" width="48.00" height="0.54" fill="#60A8AA"><title>2026 Q1 · Go: +4,613 lines</title></rect>
+<rect x="441.00" y="244.00" width="48.00" height="0.11" fill="#60A8AA"><title>2026 Q1 · Go: -932 lines</title></rect>
+<rect x="441.00" y="242.99" width="48.00" height="0.47" fill="#D5B45B"><title>2026 Q1 · JavaScript: +4,052 lines</title></rect>
+<rect x="441.00" y="244.11" width="48.00" height="0.02" fill="#D5B45B"><title>2026 Q1 · JavaScript: -204 lines</title></rect>
+<rect x="441.00" y="242.99" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q1 · Other: +0 lines</title></rect>
+<rect x="441.00" y="244.13" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q1 · Other: -0 lines</title></rect>
+<rect x="441.00" y="234.06" width="48.00" height="8.93" fill="#9485B8"><title>2026 Q1 · PHP: +76,250 lines</title></rect>
+<rect x="441.00" y="244.13" width="48.00" height="0.30" fill="#9485B8"><title>2026 Q1 · PHP: -2,604 lines</title></rect>
+<rect x="441.00" y="234.06" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q1 · Python: +0 lines</title></rect>
+<rect x="441.00" y="244.44" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q1 · Python: -0 lines</title></rect>
+<rect x="441.00" y="234.06" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q1 · Ruby: +0 lines</title></rect>
+<rect x="441.00" y="244.44" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q1 · Ruby: -0 lines</title></rect>
+<rect x="441.00" y="234.06" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q1 · Swift: +0 lines</title></rect>
+<rect x="441.00" y="244.44" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q1 · Swift: -0 lines</title></rect>
+<rect x="441.00" y="234.06" width="48.00" height="0.00" fill="#5486B8"><title>2026 Q1 · TypeScript: +0 lines</title></rect>
+<rect x="441.00" y="244.44" width="48.00" height="0.00" fill="#5486B8"><title>2026 Q1 · TypeScript: -0 lines</title></rect>
+<rect x="441.00" y="234.06" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q1 · Vue: +0 lines</title></rect>
+<rect x="441.00" y="244.44" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q1 · Vue: -0 lines</title></rect>
+<text class="muted" x="465.00" y="416" text-anchor="middle" font-size="12">2026 Q1</text>
+<rect x="545.29" y="240.53" width="48.00" height="3.47" fill="#60A8AA"><title>2026 Q2 · Go: +29,670 lines</title></rect>
+<rect x="545.29" y="244.00" width="48.00" height="1.37" fill="#60A8AA"><title>2026 Q2 · Go: -11,723 lines</title></rect>
+<rect x="545.29" y="240.53" width="48.00" height="0.00" fill="#D5B45B"><title>2026 Q2 · JavaScript: +0 lines</title></rect>
+<rect x="545.29" y="245.37" width="48.00" height="0.00" fill="#D5B45B"><title>2026 Q2 · JavaScript: -0 lines</title></rect>
+<rect x="545.29" y="240.52" width="48.00" height="0.01" fill="#9AA6B4"><title>2026 Q2 · Other: +84 lines</title></rect>
+<rect x="545.29" y="245.37" width="48.00" height="0.01" fill="#9AA6B4"><title>2026 Q2 · Other: -85 lines</title></rect>
+<rect x="545.29" y="209.57" width="48.00" height="30.95" fill="#9485B8"><title>2026 Q2 · PHP: +264,298 lines</title></rect>
+<rect x="545.29" y="245.38" width="48.00" height="15.08" fill="#9485B8"><title>2026 Q2 · PHP: -128,769 lines</title></rect>
+<rect x="545.29" y="209.57" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q2 · Python: +0 lines</title></rect>
+<rect x="545.29" y="260.46" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q2 · Python: -0 lines</title></rect>
+<rect x="545.29" y="209.57" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q2 · Ruby: +0 lines</title></rect>
+<rect x="545.29" y="260.46" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q2 · Ruby: -0 lines</title></rect>
+<rect x="545.29" y="209.57" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q2 · Swift: +0 lines</title></rect>
+<rect x="545.29" y="260.46" width="48.00" height="0.00" fill="#ECA36D"><title>2026 Q2 · Swift: -0 lines</title></rect>
+<rect x="545.29" y="108.62" width="48.00" height="100.94" fill="#5486B8"><title>2026 Q2 · TypeScript: +862,002 lines</title></rect>
+<rect x="545.29" y="260.46" width="48.00" height="57.23" fill="#5486B8"><title>2026 Q2 · TypeScript: -488,733 lines</title></rect>
+<rect x="545.29" y="102.00" width="48.00" height="6.62" fill="#78B6A3"><title>2026 Q2 · Vue: +56,544 lines</title></rect>
+<rect x="545.29" y="317.69" width="48.00" height="1.13" fill="#78B6A3"><title>2026 Q2 · Vue: -9,664 lines</title></rect>
+<text class="muted" x="569.29" y="416" text-anchor="middle" font-size="12">2026 Q2</text>
+<rect x="649.57" y="235.98" width="48.00" height="8.02" fill="#60A8AA"><title>2026 Q3 · Go: +68,491 lines</title></rect>
+<rect x="649.57" y="244.00" width="48.00" height="1.80" fill="#60A8AA"><title>2026 Q3 · Go: -15,366 lines</title></rect>
+<rect x="649.57" y="229.51" width="48.00" height="6.47" fill="#D5B45B"><title>2026 Q3 · JavaScript: +55,264 lines</title></rect>
+<rect x="649.57" y="245.80" width="48.00" height="0.58" fill="#D5B45B"><title>2026 Q3 · JavaScript: -4,989 lines</title></rect>
+<rect x="649.57" y="229.48" width="48.00" height="0.03" fill="#9AA6B4"><title>2026 Q3 · Other: +235 lines</title></rect>
+<rect x="649.57" y="246.38" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q3 · Other: -17 lines</title></rect>
+<rect x="649.57" y="210.46" width="48.00" height="19.02" fill="#9485B8"><title>2026 Q3 · PHP: +162,406 lines</title></rect>
+<rect x="649.57" y="246.39" width="48.00" height="8.37" fill="#9485B8"><title>2026 Q3 · PHP: -71,444 lines</title></rect>
+<rect x="649.57" y="179.43" width="48.00" height="31.03" fill="#83AC8E"><title>2026 Q3 · Python: +264,983 lines</title></rect>
+<rect x="649.57" y="254.75" width="48.00" height="3.63" fill="#83AC8E"><title>2026 Q3 · Python: -31,026 lines</title></rect>
+<rect x="649.57" y="179.40" width="48.00" height="0.03" fill="#BD7E8D"><title>2026 Q3 · Ruby: +250 lines</title></rect>
+<rect x="649.57" y="258.39" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q3 · Ruby: -106 lines</title></rect>
+<rect x="649.57" y="147.11" width="48.00" height="32.29" fill="#ECA36D"><title>2026 Q3 · Swift: +275,755 lines</title></rect>
+<rect x="649.57" y="258.40" width="48.00" height="3.01" fill="#ECA36D"><title>2026 Q3 · Swift: -25,736 lines</title></rect>
+<rect x="649.57" y="103.27" width="48.00" height="43.84" fill="#5486B8"><title>2026 Q3 · TypeScript: +374,350 lines</title></rect>
+<rect x="649.57" y="261.41" width="48.00" height="22.22" fill="#5486B8"><title>2026 Q3 · TypeScript: -189,727 lines</title></rect>
+<rect x="649.57" y="103.27" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: +5 lines</title></rect>
+<rect x="649.57" y="283.63" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q3 · Vue: -1 lines</title></rect>
+<text class="muted" x="673.57" y="416" text-anchor="middle" font-size="12">2026 Q3</text>
+<rect x="753.86" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2026 Q4 · Go: +0 lines</title></rect>
+<rect x="753.86" y="244.00" width="48.00" height="0.00" fill="#60A8AA"><title>2026 Q4 · Go: -0 lines</title></rect>
+<rect x="753.86" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2026 Q4 · JavaScript: +0 lines</title></rect>
+<rect x="753.86" y="244.00" width="48.00" height="0.00" fill="#D5B45B"><title>2026 Q4 · JavaScript: -0 lines</title></rect>
+<rect x="753.86" y="243.98" width="48.00" height="0.02" fill="#9AA6B4"><title>2026 Q4 · Other: +134 lines</title></rect>
+<rect x="753.86" y="244.00" width="48.00" height="0.00" fill="#9AA6B4"><title>2026 Q4 · Other: -7 lines</title></rect>
+<rect x="753.86" y="243.35" width="48.00" height="0.64" fill="#9485B8"><title>2026 Q4 · PHP: +5,447 lines</title></rect>
+<rect x="753.86" y="244.00" width="48.00" height="0.59" fill="#9485B8"><title>2026 Q4 · PHP: -4,999 lines</title></rect>
+<rect x="753.86" y="243.35" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q4 · Python: +2 lines</title></rect>
+<rect x="753.86" y="244.59" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q4 · Python: -12 lines</title></rect>
+<rect x="753.86" y="243.35" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q4 · Ruby: +6 lines</title></rect>
+<rect x="753.86" y="244.59" width="48.00" height="0.00" fill="#BD7E8D"><title>2026 Q4 · Ruby: -6 lines</title></rect>
+<rect x="753.86" y="240.89" width="48.00" height="2.46" fill="#ECA36D"><title>2026 Q4 · Swift: +20,997 lines</title></rect>
+<rect x="753.86" y="244.59" width="48.00" height="0.18" fill="#ECA36D"><title>2026 Q4 · Swift: -1,509 lines</title></rect>
+<rect x="753.86" y="240.89" width="48.00" height="0.00" fill="#5486B8"><title>2026 Q4 · TypeScript: +9 lines</title></rect>
+<rect x="753.86" y="244.77" width="48.00" height="0.00" fill="#5486B8"><title>2026 Q4 · TypeScript: -9 lines</title></rect>
+<rect x="753.86" y="240.89" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q4 · Vue: +0 lines</title></rect>
+<rect x="753.86" y="244.77" width="48.00" height="0.00" fill="#78B6A3"><title>2026 Q4 · Vue: -0 lines</title></rect>
+<text class="muted" x="777.86" y="416" text-anchor="middle" font-size="12">2026 Q4</text>
 <rect x="874" y="101" width="11" height="11" rx="3" fill="#60A8AA"/>
 <text x="896" y="112" font-size="13">Go</text>
 <rect x="874" y="126" width="11" height="11" rx="3" fill="#D5B45B"/>
@@ -147,6 +166,6 @@
 <text x="896" y="287" font-size="13">TypeScript</text>
 <rect x="874" y="301" width="11" height="11" rx="3" fill="#78B6A3"/>
 <text x="896" y="312" font-size="13">Vue</text>
-<text class="muted" x="32" y="465" font-size="12">2,795 attributed commits · full available default-branch history · SHA deduplicated</text>
+<text class="muted" x="32" y="465" font-size="12">2,843 attributed commits · full available default-branch history · SHA deduplicated</text>
 <text class="muted" x="32" y="488" font-size="12">Includes generated / imported lines. Repository language is not a per-file language analysis.</text>
 </svg>
