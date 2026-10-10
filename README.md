@@ -37,6 +37,12 @@
       <td align="center"><a href="https://github.com/gentpan/LiteMD/stargazers"><img alt="LiteMD Stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
     <tr>
+      <td><strong><a href="https://github.com/gentpan/LiteZip">🗜️&nbsp;LiteZip</a></strong></td>
+      <td>原生 macOS 压缩与解压工具，支持 ZIP / 7Z、RAR 解压与加密分卷。</td>
+      <td><code>Swift</code></td>
+      <td align="center"><a href="https://github.com/gentpan/LiteZip/stargazers"><img alt="LiteZip Stars" src="https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&amp;label=&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRDcwMCIgZD0ibTEyIDEuNSAzLjI0IDYuNTcgNy4yNiAxLjA1LTUuMjUgNS4xMiAxLjI0IDcuMjNMMTIgMTguMDZsLTYuNDkgMy40MSAxLjI0LTcuMjNMMS41IDkuMTJsNy4yNi0xLjA1eiIvPjwvc3ZnPg%3D%3D&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
       <td><strong><a href="https://github.com/gentpan/MailEdge">📬&nbsp;MailEdge</a></strong></td>
       <td>Cloudflare 上的 Serverless 邮箱与多渠道发信。</td>
       <td><code>TypeScript</code></td>
