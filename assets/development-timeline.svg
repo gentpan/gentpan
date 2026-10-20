@@ -145,8 +145,8 @@
 <rect x="753.86" y="244.65" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q4 · Ruby: -48 lines</title></rect>
 <rect x="753.86" y="229.54" width="48.00" height="5.24" fill="#ECA36D"><title>2026 Q4 · Swift: +45,935 lines</title></rect>
 <rect x="753.86" y="244.66" width="48.00" height="0.99" fill="#ECA36D"><title>2026 Q4 · Swift: -8,704 lines</title></rect>
-<rect x="753.86" y="225.88" width="48.00" height="3.67" fill="#5486B8"><title>2026 Q4 · TypeScript: +32,142 lines</title></rect>
-<rect x="753.86" y="245.65" width="48.00" height="0.71" fill="#5486B8"><title>2026 Q4 · TypeScript: -6,190 lines</title></rect>
+<rect x="753.86" y="225.83" width="48.00" height="3.72" fill="#5486B8"><title>2026 Q4 · TypeScript: +32,587 lines</title></rect>
+<rect x="753.86" y="245.65" width="48.00" height="0.85" fill="#5486B8"><title>2026 Q4 · TypeScript: -7,444 lines</title></rect>
 <text class="muted" x="777.86" y="416" text-anchor="middle" font-size="12">2026 Q4</text>
 <rect x="874" y="101" width="11" height="11" rx="3" fill="#8993A3"/>
 <text x="896" y="112" font-size="13">CSS</text>
@@ -166,6 +166,6 @@
 <text x="896" y="287" font-size="13">Swift</text>
 <rect x="874" y="301" width="11" height="11" rx="3" fill="#5486B8"/>
 <text x="896" y="312" font-size="13">TypeScript</text>
-<text class="muted" x="32" y="465" font-size="12">2,975 attributed commits · full available default-branch history · SHA deduplicated</text>
+<text class="muted" x="32" y="465" font-size="12">2,983 attributed commits · full available default-branch history · SHA deduplicated</text>
 <text class="muted" x="32" y="488" font-size="12">Includes generated / imported lines. Repository language is not a per-file language analysis.</text>
 </svg>
