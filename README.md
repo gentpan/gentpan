@@ -62,11 +62,11 @@
 ## 📊 Development
 
 <!--START_SECTION:waka-->
-![GitHub overview: 17,268 contributions, 60 public repositories, 582 stars, 15 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20261025183135)
+![GitHub overview: 17,406 contributions, 60 public repositories, 582 stars, 15 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20261026010308)
 
-![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20261025183135)
+![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20261026010308)
 
-![Quarterly lines added and deleted, grouped by repository language](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v=20261025183135)
+![Quarterly lines added and deleted, grouped by repository language](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v=20261026010308)
 
 <details>
 <summary>ℹ️ 数据说明</summary>
@@ -80,7 +80,7 @@
 
 </details>
 
-<sub>Updated 2026-10-25 18:31 UTC</sub>
+<sub>Updated 2026-10-26 01:03 UTC</sub>
 <!--END_SECTION:waka-->
 
 <details>
