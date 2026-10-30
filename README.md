@@ -16,21 +16,25 @@
 <table width="100%">
   <tbody>
     <tr>
-      <td width="50%" valign="top"><strong>sh.cd</strong><br><sub>一行命令完成服务器全面体检</sub><br><a href="https://github.com/CleanIP/sh.cd"><img alt="sh.cd stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
-      <td width="50%" valign="top"><strong>LiteZip</strong><br><sub>原生 macOS 压缩与解压工具</sub><br><a href="https://github.com/gentpan/LiteZip"><img alt="LiteZip stars" src="https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>sh.cd</strong></td><td width="10%" align="right"><a href="https://github.com/CleanIP/sh.cd"><img alt="sh.cd stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>LiteZip</strong></td><td width="10%" align="right"><a href="https://github.com/gentpan/LiteZip"><img alt="LiteZip stars" src="https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
+    <tr><td colspan="2"><sub>一行命令完成服务器全面体检</sub></td><td colspan="2"><sub>原生 macOS 压缩与解压工具</sub></td></tr>
     <tr>
-      <td width="50%" valign="top"><strong>OpenStats</strong><br><sub>macOS 菜单栏系统监控</sub><br><a href="https://github.com/gentpan/OpenStats"><img alt="OpenStats stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
-      <td width="50%" valign="top"><strong>LitePic</strong><br><sub>轻量美观的自托管图床</sub><br><a href="https://github.com/gentpan/LitePic"><img alt="LitePic stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>OpenStats</strong></td><td width="10%" align="right"><a href="https://github.com/gentpan/OpenStats"><img alt="OpenStats stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>LitePic</strong></td><td width="10%" align="right"><a href="https://github.com/gentpan/LitePic"><img alt="LitePic stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
+    <tr><td colspan="2"><sub>macOS 菜单栏系统监控</sub></td><td colspan="2"><sub>轻量美观的自托管图床</sub></td></tr>
     <tr>
-      <td width="50%" valign="top"><strong>QuotaBar</strong><br><sub>菜单栏里的 AI 额度与重置时间</sub><br><a href="https://github.com/QuotaBar/QuotaBar"><img alt="QuotaBar stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
-      <td width="50%" valign="top"><strong>LiteMD</strong><br><sub>原生轻量 Markdown 编辑器</sub><br><a href="https://github.com/gentpan/LiteMD"><img alt="LiteMD stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>QuotaBar</strong></td><td width="10%" align="right"><a href="https://github.com/QuotaBar/QuotaBar"><img alt="QuotaBar stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>LiteMD</strong></td><td width="10%" align="right"><a href="https://github.com/gentpan/LiteMD"><img alt="LiteMD stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
+    <tr><td colspan="2"><sub>菜单栏里的 AI 额度与重置时间</sub></td><td colspan="2"><sub>原生轻量 Markdown 编辑器</sub></td></tr>
     <tr>
-      <td width="50%" valign="top"><strong>liquidglass</strong><br><sub>跨浏览器液态玻璃组件</sub><br><a href="https://github.com/gentpan/liquidglass"><img alt="liquidglass stars" src="https://img.shields.io/github/stars/gentpan/liquidglass?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
-      <td width="50%" valign="top"><strong>MailEdge</strong><br><sub>Cloudflare Serverless Webmail</sub><br><a href="https://github.com/gentpan/MailEdge"><img alt="MailEdge stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>liquidglass</strong></td><td width="10%" align="right"><a href="https://github.com/gentpan/liquidglass"><img alt="liquidglass stars" src="https://img.shields.io/github/stars/gentpan/liquidglass?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="40%"><strong>MailEdge</strong></td><td width="10%" align="right"><a href="https://github.com/gentpan/MailEdge"><img alt="MailEdge stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
     </tr>
+    <tr><td colspan="2"><sub>跨浏览器液态玻璃组件</sub></td><td colspan="2"><sub>Cloudflare Serverless Webmail</sub></td></tr>
   </tbody>
 </table>
 
