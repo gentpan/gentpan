@@ -13,13 +13,26 @@
 
 ## Start Here
 
-- **[sh.cd](https://github.com/CleanIP/sh.cd)** — 一行命令完成服务器全面体检。 [![sh.cd stars](https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/CleanIP/sh.cd/stargazers)
-- **[LiteZip](https://github.com/gentpan/LiteZip)** — 免费开源的原生 macOS 压缩与解压工具。 [![LiteZip stars](https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/LiteZip/stargazers)
-- **[OpenStats](https://github.com/gentpan/OpenStats)** — 轻量原生的 macOS 菜单栏系统监控。 [![OpenStats stars](https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/OpenStats/stargazers)
-- **[LitePic](https://github.com/gentpan/LitePic)** — 轻量美观的自托管图床系统。 [![LitePic stars](https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/LitePic/stargazers)
-- **[QuotaBar](https://github.com/QuotaBar/QuotaBar)** — 在菜单栏查看 AI 编程工具的额度与重置时间。 [![QuotaBar stars](https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/QuotaBar/QuotaBar/stargazers)
-- **[LiteMD](https://github.com/gentpan/LiteMD)** — 为 macOS 而生的轻量 Markdown 编辑器。 [![LiteMD stars](https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/LiteMD/stargazers)
-- **[liquidglass](https://github.com/gentpan/liquidglass)** — 跨浏览器液态玻璃 Web Components。 [![liquidglass stars](https://img.shields.io/github/stars/gentpan/liquidglass?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/liquidglass/stargazers)
+<table width="100%">
+  <tbody>
+    <tr>
+      <td width="50%" valign="top"><strong>sh.cd</strong><br><sub>一行命令完成服务器全面体检</sub><br><a href="https://github.com/CleanIP/sh.cd"><img alt="sh.cd stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="50%" valign="top"><strong>LiteZip</strong><br><sub>原生 macOS 压缩与解压工具</sub><br><a href="https://github.com/gentpan/LiteZip"><img alt="LiteZip stars" src="https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top"><strong>OpenStats</strong><br><sub>macOS 菜单栏系统监控</sub><br><a href="https://github.com/gentpan/OpenStats"><img alt="OpenStats stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="50%" valign="top"><strong>LitePic</strong><br><sub>轻量美观的自托管图床</sub><br><a href="https://github.com/gentpan/LitePic"><img alt="LitePic stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top"><strong>QuotaBar</strong><br><sub>菜单栏里的 AI 额度与重置时间</sub><br><a href="https://github.com/QuotaBar/QuotaBar"><img alt="QuotaBar stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="50%" valign="top"><strong>LiteMD</strong><br><sub>原生轻量 Markdown 编辑器</sub><br><a href="https://github.com/gentpan/LiteMD"><img alt="LiteMD stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top"><strong>liquidglass</strong><br><sub>跨浏览器液态玻璃组件</sub><br><a href="https://github.com/gentpan/liquidglass"><img alt="liquidglass stars" src="https://img.shields.io/github/stars/gentpan/liquidglass?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+      <td width="50%" valign="top"><strong>MailEdge</strong><br><sub>Cloudflare Serverless Webmail</sub><br><a href="https://github.com/gentpan/MailEdge"><img alt="MailEdge stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Projects
 
