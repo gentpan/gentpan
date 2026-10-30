@@ -25,39 +25,35 @@
 
 按产品类型整理；项目名称链接到源代码，Star 数量实时读取自 GitHub。
 
-### macOS Apps
-
-| Project | Description | Stars |
-|:---|:---|---:|
-| **[LiteZip](https://github.com/gentpan/LiteZip)** | 原生 macOS 压缩与解压工具，支持 ZIP / 7Z 和 RAR。 | [![LiteZip stars](https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/LiteZip/stargazers) |
-| **[OpenStats](https://github.com/gentpan/OpenStats)** | macOS 菜单栏系统监控：CPU、GPU、内存与网络。 | [![OpenStats stars](https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/OpenStats/stargazers) |
-| **[QuotaBar](https://github.com/QuotaBar/QuotaBar)** | 在菜单栏查看 AI 编程工具的额度与重置时间。 | [![QuotaBar stars](https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/QuotaBar/QuotaBar/stargazers) |
-| **[LiteMD](https://github.com/gentpan/LiteMD)** | 轻量原生 Markdown 编辑器，支持实时预览。 | [![LiteMD stars](https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/LiteMD/stargazers) |
-| **[UmamiBar](https://github.com/gentpan/UmamiBar)** | macOS 菜单栏 Umami 访客与流量监控。 | [![UmamiBar stars](https://img.shields.io/github/stars/gentpan/UmamiBar?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/UmamiBar/stargazers) |
-| **[CLIState](https://github.com/gentpan/CLIState)** | 检查 Mac CLI 工具的安装来源、冲突与更新。 | [![CLIState stars](https://img.shields.io/github/stars/gentpan/CLIState?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/CLIState/stargazers) |
-
-### Websites & Web Apps
-
-| Project | Description | Stars |
-|:---|:---|---:|
-| **[LitePic](https://github.com/gentpan/LitePic)** | 轻量自托管图床，支持 Passkey 与 S3 / R2。 | [![LitePic stars](https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/LitePic/stargazers) |
-| **[MailEdge](https://github.com/gentpan/MailEdge)** | Cloudflare Workers 上的 Serverless Webmail。 | [![MailEdge stars](https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/MailEdge/stargazers) |
-| **[openimg](https://github.com/gentpan/openimg)** | 公益图床，支持 WebP / AVIF 与全球 CDN。 | [![openimg stars](https://img.shields.io/github/stars/gentpan/openimg?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/openimg/stargazers) |
-| **[dnsnf](https://github.com/gentpan/dnsnf)** | DNS 查询、反查、子域名发现与公共 API。 | [![dnsnf stars](https://img.shields.io/github/stars/gentpan/dnsnf?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/dnsnf/stargazers) |
-| **[DomainList](https://github.com/gentpan/DomainList)** | 域名展示与管理列表。 | [![DomainList stars](https://img.shields.io/github/stars/gentpan/DomainList?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/DomainList/stargazers) |
-| **[NameDeal](https://github.com/gentpan/NameDeal)** | 轻量域名停放与询价管理系统。 | [![NameDeal stars](https://img.shields.io/github/stars/gentpan/NameDeal?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/NameDeal/stargazers) |
-| **[GitShow](https://github.com/gentpan/GitShow)** | 自托管个人 GitHub 主页与项目展示。 | [![GitShow stars](https://img.shields.io/github/stars/gentpan/GitShow?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/GitShow/stargazers) |
-| **[Plost](https://github.com/gentpan/Plost)** | 隐私友好的自托管网站统计，Cookie-free。 | [![Plost stars](https://img.shields.io/github/stars/gentpan/Plost?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/Plost/stargazers) |
-| **[jieqi.dev](https://github.com/gentpan/jieqi.dev)** | 节气、节日与假期卡片、API 和 Widget。 | [![jieqi.dev stars](https://img.shields.io/github/stars/gentpan/jieqi.dev?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/jieqi.dev/stargazers) |
-
-### Developer Tools & APIs
-
-| Project | Description | Stars |
-|:---|:---|---:|
-| **[sh.cd](https://github.com/CleanIP/sh.cd)** | 一行命令完成服务器性能、IP 与网络体检。 | [![sh.cd stars](https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/CleanIP/sh.cd/stargazers) |
-| **[liquidglass](https://github.com/gentpan/liquidglass)** | 跨浏览器液态玻璃 Web Components。 | [![liquidglass stars](https://img.shields.io/github/stars/gentpan/liquidglass?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/liquidglass/stargazers) |
-| **[litezoom](https://github.com/gentpan/litezoom)** | 6.7 KB 零依赖图片灯箱。 | [![litezoom stars](https://img.shields.io/github/stars/gentpan/litezoom?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/litezoom/stargazers) |
-| **[grok2api](https://github.com/gentpan/grok2api)** | Grok 到 OpenAI / Anthropic 兼容 API 网关。 | [![grok2api stars](https://img.shields.io/github/stars/gentpan/grok2api?style=flat-square&label=%E2%98%85&color=FFD43B&labelColor=303D4D)](https://github.com/gentpan/grok2api/stargazers) |
+<table width="100%">
+  <thead>
+    <tr><th align="left">Project</th><th align="left" width="10000">Description</th><th align="right">Stars</th></tr>
+  </thead>
+  <tbody>
+    <tr><th colspan="3" align="left">macOS Apps</th></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/LiteZip">LiteZip</a></strong></td><td>原生 macOS 压缩与解压工具，支持 ZIP / 7Z 和 RAR。</td><td align="right"><a href="https://github.com/gentpan/LiteZip/stargazers"><img alt="LiteZip stars" src="https://img.shields.io/github/stars/gentpan/LiteZip?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/OpenStats">OpenStats</a></strong></td><td>macOS 菜单栏系统监控：CPU、GPU、内存与网络。</td><td align="right"><a href="https://github.com/gentpan/OpenStats/stargazers"><img alt="OpenStats stars" src="https://img.shields.io/github/stars/gentpan/OpenStats?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/QuotaBar/QuotaBar">QuotaBar</a></strong></td><td>在菜单栏查看 AI 编程工具的额度与重置时间。</td><td align="right"><a href="https://github.com/QuotaBar/QuotaBar/stargazers"><img alt="QuotaBar stars" src="https://img.shields.io/github/stars/QuotaBar/QuotaBar?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/LiteMD">LiteMD</a></strong></td><td>轻量原生 Markdown 编辑器，支持实时预览。</td><td align="right"><a href="https://github.com/gentpan/LiteMD/stargazers"><img alt="LiteMD stars" src="https://img.shields.io/github/stars/gentpan/LiteMD?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/UmamiBar">UmamiBar</a></strong></td><td>macOS 菜单栏 Umami 访客与流量监控。</td><td align="right"><a href="https://github.com/gentpan/UmamiBar/stargazers"><img alt="UmamiBar stars" src="https://img.shields.io/github/stars/gentpan/UmamiBar?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/CLIState">CLIState</a></strong></td><td>检查 Mac CLI 工具的安装来源、冲突与更新。</td><td align="right"><a href="https://github.com/gentpan/CLIState/stargazers"><img alt="CLIState stars" src="https://img.shields.io/github/stars/gentpan/CLIState?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><th colspan="3" align="left">Websites &amp; Web Apps</th></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/LitePic">LitePic</a></strong></td><td>轻量自托管图床，支持 Passkey 与 S3 / R2。</td><td align="right"><a href="https://github.com/gentpan/LitePic/stargazers"><img alt="LitePic stars" src="https://img.shields.io/github/stars/gentpan/LitePic?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/MailEdge">MailEdge</a></strong></td><td>Cloudflare Workers 上的 Serverless Webmail。</td><td align="right"><a href="https://github.com/gentpan/MailEdge/stargazers"><img alt="MailEdge stars" src="https://img.shields.io/github/stars/gentpan/MailEdge?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/openimg">openimg</a></strong></td><td>公益图床，支持 WebP / AVIF 与全球 CDN。</td><td align="right"><a href="https://github.com/gentpan/openimg/stargazers"><img alt="openimg stars" src="https://img.shields.io/github/stars/gentpan/openimg?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/dnsnf">dnsnf</a></strong></td><td>DNS 查询、反查、子域名发现与公共 API。</td><td align="right"><a href="https://github.com/gentpan/dnsnf/stargazers"><img alt="dnsnf stars" src="https://img.shields.io/github/stars/gentpan/dnsnf?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/DomainList">DomainList</a></strong></td><td>域名展示与管理列表。</td><td align="right"><a href="https://github.com/gentpan/DomainList/stargazers"><img alt="DomainList stars" src="https://img.shields.io/github/stars/gentpan/DomainList?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/NameDeal">NameDeal</a></strong></td><td>轻量域名停放与询价管理系统。</td><td align="right"><a href="https://github.com/gentpan/NameDeal/stargazers"><img alt="NameDeal stars" src="https://img.shields.io/github/stars/gentpan/NameDeal?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/GitShow">GitShow</a></strong></td><td>自托管个人 GitHub 主页与项目展示。</td><td align="right"><a href="https://github.com/gentpan/GitShow/stargazers"><img alt="GitShow stars" src="https://img.shields.io/github/stars/gentpan/GitShow?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/Plost">Plost</a></strong></td><td>隐私友好的自托管网站统计，Cookie-free。</td><td align="right"><a href="https://github.com/gentpan/Plost/stargazers"><img alt="Plost stars" src="https://img.shields.io/github/stars/gentpan/Plost?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/jieqi.dev">jieqi.dev</a></strong></td><td>节气、节日与假期卡片、API 和 Widget。</td><td align="right"><a href="https://github.com/gentpan/jieqi.dev/stargazers"><img alt="jieqi.dev stars" src="https://img.shields.io/github/stars/gentpan/jieqi.dev?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><th colspan="3" align="left">Developer Tools &amp; APIs</th></tr>
+    <tr><td><strong><a href="https://github.com/CleanIP/sh.cd">sh.cd</a></strong></td><td>一行命令完成服务器性能、IP 与网络体检。</td><td align="right"><a href="https://github.com/CleanIP/sh.cd/stargazers"><img alt="sh.cd stars" src="https://img.shields.io/github/stars/CleanIP/sh.cd?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/liquidglass">liquidglass</a></strong></td><td>跨浏览器液态玻璃 Web Components。</td><td align="right"><a href="https://github.com/gentpan/liquidglass/stargazers"><img alt="liquidglass stars" src="https://img.shields.io/github/stars/gentpan/liquidglass?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/litezoom">litezoom</a></strong></td><td>6.7 KB 零依赖图片灯箱。</td><td align="right"><a href="https://github.com/gentpan/litezoom/stargazers"><img alt="litezoom stars" src="https://img.shields.io/github/stars/gentpan/litezoom?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+    <tr><td><strong><a href="https://github.com/gentpan/grok2api">grok2api</a></strong></td><td>Grok 到 OpenAI / Anthropic 兼容 API 网关。</td><td align="right"><a href="https://github.com/gentpan/grok2api/stargazers"><img alt="grok2api stars" src="https://img.shields.io/github/stars/gentpan/grok2api?style=flat-square&amp;label=%E2%98%85&amp;color=FFD43B&amp;labelColor=303D4D"></a></td></tr>
+  </tbody>
+</table>
 
 **Organizations:** [QuotaBar](https://github.com/QuotaBar) · [CleanIP](https://github.com/CleanIP) · [utterlog](https://github.com/utterlog) · [ImgRouter](https://github.com/ImgRouter)
 
