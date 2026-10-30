@@ -127,12 +127,12 @@
 <rect x="753.86" y="244.05" width="48.00" height="1.74" fill="#9485B8"><title>2026 Q4 · PHP: -14,879 lines</title></rect>
 <rect x="753.86" y="238.33" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q4 · Python: +15 lines</title></rect>
 <rect x="753.86" y="245.79" width="48.00" height="0.00" fill="#83AC8E"><title>2026 Q4 · Python: -15 lines</title></rect>
-<rect x="753.86" y="238.32" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q4 · Ruby: +51 lines</title></rect>
-<rect x="753.86" y="245.79" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q4 · Ruby: -51 lines</title></rect>
-<rect x="753.86" y="232.72" width="48.00" height="5.60" fill="#ECA36D"><title>2026 Q4 · Swift: +47,829 lines</title></rect>
-<rect x="753.86" y="245.80" width="48.00" height="1.13" fill="#ECA36D"><title>2026 Q4 · Swift: -9,653 lines</title></rect>
-<rect x="753.86" y="208.64" width="48.00" height="24.08" fill="#5486B8"><title>2026 Q4 · TypeScript: +205,655 lines</title></rect>
-<rect x="753.86" y="246.93" width="48.00" height="5.07" fill="#5486B8"><title>2026 Q4 · TypeScript: -43,295 lines</title></rect>
+<rect x="753.86" y="238.32" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q4 · Ruby: +53 lines</title></rect>
+<rect x="753.86" y="245.79" width="48.00" height="0.01" fill="#BD7E8D"><title>2026 Q4 · Ruby: -53 lines</title></rect>
+<rect x="753.86" y="232.30" width="48.00" height="6.02" fill="#ECA36D"><title>2026 Q4 · Swift: +51,370 lines</title></rect>
+<rect x="753.86" y="245.80" width="48.00" height="1.18" fill="#ECA36D"><title>2026 Q4 · Swift: -10,076 lines</title></rect>
+<rect x="753.86" y="208.16" width="48.00" height="24.14" fill="#5486B8"><title>2026 Q4 · TypeScript: +206,173 lines</title></rect>
+<rect x="753.86" y="246.98" width="48.00" height="5.10" fill="#5486B8"><title>2026 Q4 · TypeScript: -43,554 lines</title></rect>
 <text class="muted" x="777.86" y="416" text-anchor="middle" font-size="12">2026 Q4</text>
 <rect x="874" y="101" width="11" height="11" rx="3" fill="#60A8AA"/>
 <text x="896" y="112" font-size="13">Go</text>
@@ -150,6 +150,6 @@
 <text x="896" y="262" font-size="13">Swift</text>
 <rect x="874" y="276" width="11" height="11" rx="3" fill="#5486B8"/>
 <text x="896" y="287" font-size="13">TypeScript</text>
-<text class="muted" x="32" y="465" font-size="12">3,046 attributed commits · full available default-branch history · SHA deduplicated</text>
+<text class="muted" x="32" y="465" font-size="12">3,054 attributed commits · full available default-branch history · SHA deduplicated</text>
 <text class="muted" x="32" y="488" font-size="12">Includes generated / imported lines. Repository language is not a per-file language analysis.</text>
 </svg>
