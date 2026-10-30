@@ -138,8 +138,8 @@ def timeline(commits):
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">',
            '<title id="title">Code Timeline · gentpan</title>',
            '<desc id="desc">Public default-branch commits attributed to gentpan. Additions above zero, deletions below zero; grouped by repository primary language.</desc>',
-           '<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#334155}.muted{fill:#64748b}.grid{stroke:#e4e9f0}.bg{fill:#f8fafc}@media(prefers-color-scheme:dark){text{fill:#e2e8f0}.muted{fill:#94a3b8}.grid{stroke:#303b4c}.bg{fill:#161e2b}}</style>',
-           '<rect class="bg" width="1080" height="520" rx="20"/>',
+           '<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#334155}.muted{fill:#64748b}.grid{stroke:#e4e9f0}@media(prefers-color-scheme:dark){text{fill:#e2e8f0}.muted{fill:#94a3b8}.grid{stroke:#303b4c}}</style>',
+           '<path class="grid" d="M0 1H1080M0 519H1080"/>',
            '<text x="32" y="42" font-size="22" font-weight="650">Code Timeline</text>',
            '<text class="muted" x="32" y="68" font-size="13">Lines added / deleted · by repository language</text>']
     for fraction in (-1, -0.5, 0, 0.5, 1):
@@ -203,7 +203,12 @@ def main():
 
 ![Repository languages and commit rhythm, UTC]({raw}/distribution.svg?v={version})
 
+<details>
+<summary>Code Timeline</summary>
+
 ![Quarterly lines added and deleted, grouped by repository language]({raw}/development-timeline.svg?v={version})
+
+</details>
 
 <details>
 <summary>ℹ️ 数据说明</summary>
