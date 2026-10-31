@@ -177,7 +177,6 @@ def main():
     profile = github("users/" + OWNER)
     own, all_repos = profile_repositories()
     history_repos = [repo for repo in all_repos if not repo["fork"]]
-    organization_names = "、".join(ORGS)
     year_start = f"{NOW.year}-01-01T00:00:00Z"
     query = """query($login:String!,$from:DateTime!) { user(login:$login) {
       id contributionsCollection(from:$from) { contributionCalendar { totalContributions } }
@@ -195,32 +194,12 @@ def main():
         time_bins[name] += 1
     languages = Counter(r["language"] for r in own if r["language"] and not r["fork"])
     stars = sum(r["stargazers_count"] for r in all_repos)
-    storage_mb = sum(r["size"] for r in own) / 1024
     contributions = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     version = NOW.strftime('%Y%m%d%H%M%S')
     raw = "https://raw.githubusercontent.com/gentpan/gentpan/main/assets"
     section = f"""![GitHub overview: {contributions:,} contributions, {len(all_repos)} public repositories, {stars} stars, {profile['followers']} followers]({raw}/overview.svg?v={version})
 
 ![Repository languages and commit rhythm, UTC]({raw}/distribution.svg?v={version})
-
-<details>
-<summary>Code Timeline</summary>
-
-![Quarterly lines added and deleted, grouped by repository language]({raw}/development-timeline.svg?v={version})
-
-</details>
-
-<details>
-<summary>ℹ️ 数据说明</summary>
-
-- 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及所拥有组织（{organization_names}）的全部公开仓库，按仓库 ID 去重。统计包含 Fork 仓库自身获得的 Star，不包含其上游仓库的 Star；不读取或展示私有仓库。
-- 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
-- 提交时段按 UTC 划分。提交和 Timeline 只统计个人及上述组织公开非 Fork 仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
-- Timeline 上方是新增行、下方是删除行，按仓库当前主要语言分组；包含生成文件和导入代码。
-- 个人公开仓库约 {storage_mb:,.1f} MB。
-- 访问量徽章由 [Komarev](https://github.com/antonkomarev/github-profile-views-counter) 提供，统计接入后的图片请求次数（含刷新），受 GitHub 图片缓存影响，不代表独立访客数。
-
-</details>
 
 <sub>Updated {NOW.strftime('%Y-%m-%d %H:%M UTC')}</sub>"""
     readme_path = ROOT / "README.md"
@@ -230,8 +209,6 @@ def main():
         raise RuntimeError("Expected exactly one stats section")
     before, rest = readme.split(start)
     _, after = rest.split(end)
-    chart = timeline(commits)
-    (ROOT / "assets" / "development-timeline.svg").write_text(chart)
     (ROOT / "assets" / "overview.svg").write_text(metrics(
         contributions, NOW.year, len(all_repos), stars, profile["followers"]))
     (ROOT / "assets" / "distribution.svg").write_text(distribution(languages, time_bins))

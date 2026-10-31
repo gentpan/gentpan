@@ -60,25 +60,6 @@
 
 ![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20261031003944)
 
-<details>
-<summary>Code Timeline</summary>
-
-![Quarterly lines added and deleted, grouped by repository language](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/development-timeline.svg?v=20261031003944)
-
-</details>
-
-<details>
-<summary>ℹ️ 数据说明</summary>
-
-- 每天自动更新。贡献数来自 GitHub 当年贡献日历；仓库数与 Star 合计覆盖个人及所拥有组织（QuotaBar、CleanIP、utterlog、ImgRouter）的全部公开仓库，按仓库 ID 去重。统计包含 Fork 仓库自身获得的 Star，不包含其上游仓库的 Star；不读取或展示私有仓库。
-- 语言图按个人公开非 Fork 仓库的主要语言计数，排除未识别语言的仓库，不代表编码时长。
-- 提交时段按 UTC 划分。提交和 Timeline 只统计个人及上述组织公开非 Fork 仓库默认分支中 GitHub 归属到 gentpan 的提交，按 SHA 去重。
-- Timeline 上方是新增行、下方是删除行，按仓库当前主要语言分组；包含生成文件和导入代码。
-- 个人公开仓库约 1,586.6 MB。
-- 访问量徽章由 [Komarev](https://github.com/antonkomarev/github-profile-views-counter) 提供，统计接入后的图片请求次数（含刷新），受 GitHub 图片缓存影响，不代表独立访客数。
-
-</details>
-
 <sub>Updated 2026-10-31 00:39 UTC</sub>
 <!--END_SECTION:waka-->
 
