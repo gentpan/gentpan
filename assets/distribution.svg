@@ -1,69 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 306" role="img" aria-labelledby="title desc">
-<title id="title">Languages and commit rhythm</title><desc id="desc">Repository primary languages: Go 6, PHP 12, TypeScript 13, Python 4, JavaScript 5, Swift 5, Ruby 1. Commit rhythm in UTC: 🌞 Morning 390, 🌆 Daytime 1070, 🌃 Evening 1237, 🌙 Night 356</desc>
+<title id="title">Languages and commit rhythm</title><desc id="desc">Repository primary languages: Go 6, PHP 12, TypeScript 12, Python 4, JavaScript 5, Swift 5, Ruby 1. Commit rhythm in UTC: 🌞 Morning 390, 🌆 Daytime 1051, 🌃 Evening 1229, 🌙 Night 352</desc>
 <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;fill:#334155}.muted{fill:#738196}.rule{fill:none;stroke:#d8dee4}.bartrack{fill:#e5eaf0}@media(prefers-color-scheme:dark){text{fill:#e1e8f0}.muted{fill:#93a4b8}.rule{stroke:#30363d}.bartrack{fill:#2b3645}}</style>
 <path class="rule" d="M0 1H1080M0 305H1080M540 22V282"/>
 <text x="0" y="34" font-size="13" font-weight="700" letter-spacing="2">LANGUAGES</text>
 <text x="0" y="56" font-size="10" class="muted">PRIMARY LANGUAGE / PUBLIC PERSONAL REPOSITORIES</text>
 <text x="570" y="34" font-size="13" font-weight="700" letter-spacing="2">COMMIT RHYTHM / UTC</text>
 <text x="570" y="56" font-size="10" class="muted">ATTRIBUTED PUBLIC COMMITS</text>
-<rect x="0" y="79" width="8" height="8" fill="#5486B8"/>
-<text x="20" y="88" font-size="12" >TypeScript</text>
-<text x="282" y="88" font-size="12" text-anchor="end" class="muted">13</text>
+<rect x="0" y="79" width="8" height="8" fill="#9485B8"/>
+<text x="20" y="88" font-size="12" >PHP</text>
+<text x="282" y="88" font-size="12" text-anchor="end" class="muted">12</text>
 <rect class="bartrack" x="310" y="81" width="140" height="6"/>
-<rect x="310" y="81" width="39.565" height="6" fill="#5486B8"/>
-<text x="510" y="88" font-size="11" text-anchor="end" class="muted">28.3%</text>
-<rect x="0" y="106" width="8" height="8" fill="#9485B8"/>
-<text x="20" y="115" font-size="12" >PHP</text>
+<rect x="310" y="81" width="37.333" height="6" fill="#9485B8"/>
+<text x="510" y="88" font-size="11" text-anchor="end" class="muted">26.7%</text>
+<rect x="0" y="106" width="8" height="8" fill="#5486B8"/>
+<text x="20" y="115" font-size="12" >TypeScript</text>
 <text x="282" y="115" font-size="12" text-anchor="end" class="muted">12</text>
 <rect class="bartrack" x="310" y="108" width="140" height="6"/>
-<rect x="310" y="108" width="36.522" height="6" fill="#9485B8"/>
-<text x="510" y="115" font-size="11" text-anchor="end" class="muted">26.1%</text>
+<rect x="310" y="108" width="37.333" height="6" fill="#5486B8"/>
+<text x="510" y="115" font-size="11" text-anchor="end" class="muted">26.7%</text>
 <rect x="0" y="133" width="8" height="8" fill="#60A8AA"/>
 <text x="20" y="142" font-size="12" >Go</text>
 <text x="282" y="142" font-size="12" text-anchor="end" class="muted"> 6</text>
 <rect class="bartrack" x="310" y="135" width="140" height="6"/>
-<rect x="310" y="135" width="18.261" height="6" fill="#60A8AA"/>
-<text x="510" y="142" font-size="11" text-anchor="end" class="muted">13.0%</text>
+<rect x="310" y="135" width="18.667" height="6" fill="#60A8AA"/>
+<text x="510" y="142" font-size="11" text-anchor="end" class="muted">13.3%</text>
 <rect x="0" y="160" width="8" height="8" fill="#D5B45B"/>
 <text x="20" y="169" font-size="12" >JavaScript</text>
 <text x="282" y="169" font-size="12" text-anchor="end" class="muted"> 5</text>
 <rect class="bartrack" x="310" y="162" width="140" height="6"/>
-<rect x="310" y="162" width="15.217" height="6" fill="#D5B45B"/>
-<text x="510" y="169" font-size="11" text-anchor="end" class="muted">10.9%</text>
+<rect x="310" y="162" width="15.556" height="6" fill="#D5B45B"/>
+<text x="510" y="169" font-size="11" text-anchor="end" class="muted">11.1%</text>
 <rect x="0" y="187" width="8" height="8" fill="#ECA36D"/>
 <text x="20" y="196" font-size="12" >Swift</text>
 <text x="282" y="196" font-size="12" text-anchor="end" class="muted"> 5</text>
 <rect class="bartrack" x="310" y="189" width="140" height="6"/>
-<rect x="310" y="189" width="15.217" height="6" fill="#ECA36D"/>
-<text x="510" y="196" font-size="11" text-anchor="end" class="muted">10.9%</text>
+<rect x="310" y="189" width="15.556" height="6" fill="#ECA36D"/>
+<text x="510" y="196" font-size="11" text-anchor="end" class="muted">11.1%</text>
 <rect x="0" y="214" width="8" height="8" fill="#83AC8E"/>
 <text x="20" y="223" font-size="12" >Python</text>
 <text x="282" y="223" font-size="12" text-anchor="end" class="muted"> 4</text>
 <rect class="bartrack" x="310" y="216" width="140" height="6"/>
-<rect x="310" y="216" width="12.174" height="6" fill="#83AC8E"/>
-<text x="510" y="223" font-size="11" text-anchor="end" class="muted"> 8.7%</text>
+<rect x="310" y="216" width="12.444" height="6" fill="#83AC8E"/>
+<text x="510" y="223" font-size="11" text-anchor="end" class="muted"> 8.9%</text>
 <rect x="0" y="241" width="8" height="8" fill="#BD7E8D"/>
 <text x="20" y="250" font-size="12" >Ruby</text>
 <text x="282" y="250" font-size="12" text-anchor="end" class="muted"> 1</text>
 <rect class="bartrack" x="310" y="243" width="140" height="6"/>
-<rect x="310" y="243" width="3.043" height="6" fill="#BD7E8D"/>
+<rect x="310" y="243" width="3.111" height="6" fill="#BD7E8D"/>
 <text x="510" y="250" font-size="11" text-anchor="end" class="muted"> 2.2%</text>
 <text x="570" y="90" font-size="12" >MORNING</text>
-<text x="1080" y="90" font-size="12" text-anchor="end" class="muted">390 / 12.8%</text>
+<text x="1080" y="90" font-size="12" text-anchor="end" class="muted">390 / 12.9%</text>
 <rect class="bartrack" x="570" y="101" width="510" height="6"/>
-<rect x="570" y="101" width="65.149" height="6" fill="#9CBFCB"/>
+<rect x="570" y="101" width="65.817" height="6" fill="#9CBFCB"/>
 <text x="570" y="138" font-size="12" >DAYTIME</text>
-<text x="1080" y="138" font-size="12" text-anchor="end" class="muted">1,070 / 35.0%</text>
+<text x="1080" y="138" font-size="12" text-anchor="end" class="muted">1,051 / 34.8%</text>
 <rect class="bartrack" x="570" y="149" width="510" height="6"/>
-<rect x="570" y="149" width="178.742" height="6" fill="#83B0C3"/>
+<rect x="570" y="149" width="177.369" height="6" fill="#83B0C3"/>
 <text x="570" y="186" font-size="12" >EVENING</text>
-<text x="1080" y="186" font-size="12" text-anchor="end" class="muted">1,237 / 40.5%</text>
+<text x="1080" y="186" font-size="12" text-anchor="end" class="muted">1,229 / 40.7%</text>
 <rect class="bartrack" x="570" y="197" width="510" height="6"/>
-<rect x="570" y="197" width="206.639" height="6" fill="#5486B8"/>
+<rect x="570" y="197" width="207.409" height="6" fill="#5486B8"/>
 <text x="570" y="234" font-size="12" >NIGHT</text>
-<text x="1080" y="234" font-size="12" text-anchor="end" class="muted">356 / 11.7%</text>
+<text x="1080" y="234" font-size="12" text-anchor="end" class="muted">352 / 11.6%</text>
 <rect class="bartrack" x="570" y="245" width="510" height="6"/>
-<rect x="570" y="245" width="59.469" height="6" fill="#8D85B3"/>
+<rect x="570" y="245" width="59.404" height="6" fill="#8D85B3"/>
 <text x="0" y="292" font-size="10" class="muted">EXCLUDES FORKS AND REPOSITORIES WITHOUT A LANGUAGE</text>
 <text x="570" y="292" font-size="10" class="muted">06–12 / 12–18 / 18–24 / 00–06 · DEFAULT BRANCHES</text>
 </svg>
