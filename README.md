@@ -56,11 +56,11 @@
 ## Development
 
 <!--START_SECTION:waka-->
-![GitHub overview: 19,310 contributions, 54 public repositories, 660 stars, 26 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20261127182411)
+![GitHub overview: 19,310 contributions, 54 public repositories, 660 stars, 25 followers](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/overview.svg?v=20261128004004)
 
-![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20261127182411)
+![Repository languages and commit rhythm, UTC](https://raw.githubusercontent.com/gentpan/gentpan/main/assets/distribution.svg?v=20261128004004)
 
-<sub>Updated 2026-11-27 18:24 UTC</sub>
+<sub>Updated 2026-11-28 00:40 UTC</sub>
 <!--END_SECTION:waka-->
 
 <details>
